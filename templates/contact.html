@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Contact Me" %}{% endblock %}
+{% block extra_css %}
+  <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="contact">
+  <div class="container contact-inner">
+    <header class="contact-head">
+      <h2 class="contact-title">
+        {% blocktrans trimmed with accent=_("clarify") %}
+          Let’s <span class="accent">{{ accent }}</span> your idea.
+        {% endblocktrans %}
+      </h2>
+
+      <p class="contact-subtitle">
+        {% blocktrans trimmed %}
+          Tell me what you’re thinking — I’ll help you figure out the next step.
+        {% endblocktrans %}
+      </p>
+    </header>
+    
+
+    <form method="post" class="contact-form" novalidate>
+      {% csrf_token %}
+
+      {% if form.non_field_errors %}
+        <div class="form-errors">{{ form.non_field_errors }}</div>
+      {% endif %}
+
+      
+      <div class="field floating">
+        {{ form.name }}
+        <label for="{{ form.name.id_for_label }}">{% trans "Name" %}</label>
+        {{ form.name.errors }}
+      </div>
+
+      <div class="field floating">
+        {{ form.email }}
+        <label for="{{ form.email.id_for_label }}">{% trans "Email" %}</label>
+        {{ form.email.errors }}
+      </div>
+
+      <div class="field floating">
+        {{ form.phone }}
+        <label for="{{ form.phone.id_for_label }}">{% trans "Phone (optional)" %}</label>
+        {{ form.phone.errors }}
+      </div>
+
+      <div class="field">
+        <label class="static-label" for="{{ form.package.id_for_label }}">{% trans "Package" %}</label>
+        <div class="select-wrap">
+          {{ form.package }}
+          <span class="select-chevron" aria-hidden="true"></span>
+        </div>
+        
+        {{ form.package.errors }}
+      </div>
+      
+
+      <div class="field floating">
+        {{ form.message }}
+        <label for="{{ form.message.id_for_label }}">{% trans "Message" %}</label>
+        {{ form.message.errors }}
+      </div>
+
+      <div class="btn-area">
+        <button type="submit" class="btn btn-primary">{% trans "Start Project" %}</button>
+        <a class="btn btn-secondary" href="mailto:umutd.zman@gmail.com">
+          {% trans "Email Me" %}
+        </a>
+      </div>
+
+      <p class="micro">
+        {% blocktrans trimmed %}
+          I usually reply within 24 hours to see if it’s a good fit.
+        {% endblocktrans %}
+      </p>
+    </form>
+
+  </div>
+</section>
+{% endblock %}

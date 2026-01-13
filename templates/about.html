@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "About" %} | Umut Dizman{% endblock %}
+{% block extra_css %} <link rel="stylesheet" href="{% static 'css/about.css' %}">{% endblock %}
+
+
+{% block content %}
+  <section class="section hero">
+    <div class="container">
+      <div class="hero-inner">
+        <h1 class="hero-title">{% trans "More Than Just" %} <span class="accent">{% trans "Code" %}</span></h1>
+        <p class="hero-lead">{% blocktrans trimmed %}I'm a strategic partner for founders and small businesses. I build digital products that are fast, accessible, and designed to grow with your vision.{% endblocktrans %}</p>
+      </div>
+      <div class="hero-actions">
+        <a href="{% url 'umutdizmancom:contact' %}" class="btn btn-primary">{% trans "Get in Touch" %}</a>
+        <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-secondary">{% trans "View Work" %} </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-values">
+    <div class="container">
+      <div class="values-grid">
+
+        <article class="value-card">
+          <div class="value-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M475-160q4 0 8-2t6-4l328-328q12-12 17.5-27t5.5-30q0-16-5.5-30.5T817-607L647-777q-11-12-25.5-17.5T591-800q-15 0-30 5.5T534-777l-11 11 74 75q15 14 22 32t7 38q0 42-28.5 70.5T527-522q-20 0-38.5-7T456-550l-75-74-175 175q-3 3-4.5 6.5T200-435q0 8 6 14.5t14 6.5q4 0 8-2t6-4l136-136 56 56-135 136q-3 3-4.5 6.5T285-350q0 8 6 14t14 6q4 0 8-2t6-4l136-135 56 56-135 136q-3 2-4.5 6t-1.5 8q0 8 6 14t14 6q4 0 7.5-1.5t6.5-4.5l136-135 56 56-136 136q-3 3-4.5 6.5T454-180q0 8 6.5 14t14.5 6Zm-1 80q-37 0-65.5-24.5T375-166q-34-5-57-28t-28-57q-34-5-56.5-28.5T206-336q-38-5-62-33t-24-66q0-20 7.5-38.5T149-506l232-231 131 131q2 3 6 4.5t8 1.5q9 0 15-5.5t6-14.5q0-4-1.5-8t-4.5-6L398-777q-11-12-25.5-17.5T342-800q-15 0-30 5.5T285-777L144-635q-9 9-15 21t-8 24q-2 12 0 24.5t8 23.5l-58 58q-17-23-25-50.5T40-590q2-28 14-54.5T87-692l141-141q24-23 53.5-35t60.5-12q31 0 60.5 12t52.5 35l11 11 11-11q24-23 53.5-35t60.5-12q31 0 60.5 12t52.5 35l169 169q23 23 35 53t12 61q0 31-12 60.5T873-437L545-110q-14 14-32.5 22T474-80Zm-99-560Z"/></svg>
+          </div>
+          <h3 class="value-title">{% trans "Business-Focused Thinking" %}</h3>
+          <p class="value-text">{% blocktrans trimmed %}I don’t just write code. I think about your business goals and build solutions that support growth, conversion, and long-term success.{% endblocktrans %}</p>
+        </article>
+
+        <article class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M686-132 444-376q-20 8-40.5 12t-43.5 4q-100 0-170-70t-70-170q0-36 10-68.5t28-61.5l146 146 72-72-146-146q29-18 61.5-28t68.5-10q100 0 170 70t70 170q0 23-4 43.5T584-516l244 242q12 12 12 29t-12 29l-84 84q-12 12-29 12t-29-12Zm29-85 27-27-256-256q18-20 26-46.5t8-53.5q0-60-38.5-104.5T386-758l74 74q12 12 12 28t-12 28L332-500q-12 12-28 12t-28-12l-74-74q9 57 53.5 95.5T360-440q26 0 52-8t47-25l256 256ZM472-488Z"/></svg>
+          </div>
+          <h3 class="value-title">{% trans "Clean, Maintainable Code" %}</h3>
+          <p class="value-text">{% blocktrans trimmed %}I build clean, readable, and scalable code that’s easy to maintain — so your project doesn’t become a problem six months later.{% endblocktrans %}</p>
+        </article>
+
+        <article class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M880-80 720-240H320q-33 0-56.5-23.5T240-320v-40h440q33 0 56.5-23.5T760-440v-280h40q33 0 56.5 23.5T880-640v560ZM160-473l47-47h393v-280H160v327ZM80-280v-520q0-33 23.5-56.5T160-880h440q33 0 56.5 23.5T680-800v280q0 33-23.5 56.5T600-440H240L80-280Zm80-240v-280 280Z"/></svg>
+          </div>
+          <h3 class="value-title">{% trans "Clear Communication & Delivery" %}</h3>
+          <p class="value-text">{% blocktrans trimmed %}No middlemen, no confusion. You work directly with me, get regular updates, and always know where the project stands.{% endblocktrans %}</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section approach">
+    <div class="container approach-grid">
+      <div class="approach-left">
+        <span class="eyebrow">{% trans "Technical Approach" %}</span>
+        <h2>{% trans "Modern tools, Simple systems." %}</h2>
+
+        <p class="muted">
+          {% blocktrans trimmed %}
+          I don’t pick tech because it’s trendy. I choose tools that keep your site fast, secure, and easy to manage — without unnecessary complexity.
+          {% endblocktrans %}
+        </p>
+
+        <ul class="approach-list">
+          <li>{% trans "Django-based, production-ready architecture" %}</li>
+          <li>{% trans "Fast pages + clean SEO fundamentals" %}</li>
+          <li>{% trans "Admin-managed content when you need it" %}</li>
+          <li>{% trans "Clear handoff: docs + short training" %}</li>
+        </ul>
+      </div>
+
+      <div class="approach-right">
+        <div class="stack-card">
+
+          <div class="stack-grid">
+            <div class="stack-item"><span class="stack-title">Django</span><span class="stack-sub">{% trans "Backend & admin" %}</span></div>
+            <div class="stack-item"><span class="stack-title">PostgreSQL</span><span class="stack-sub">{% trans "Reliable database" %}</span></div>
+            <div class="stack-item"><span class="stack-title">Tailwind CSS</span><span class="stack-sub">{% trans "Clean UI fast" %}</span></div>
+            <div class="stack-item"><span class="stack-title">Docker / Deploy</span><span class="stack-sub">{% trans "Stable releases" %}</span></div>
+          </div>
+
+          <div class="stack-quote">
+            {% blocktrans trimmed %}"The right tool for the right job."{% endblocktrans %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process">
+    <div class="container">
+      <span class="eyebrow">{% trans "How I Work" %}</span>
+      <h2>{% trans "Development Process" %}</h2>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm160-320h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80Z"/></svg></span></div>
+          <h3>1. {% trans "Discovery" %}</h3>
+          <p>{% blocktrans trimmed %}We discuss your goals, audience and requirements to define a clear roadmap.{% endblocktrans %} </p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m352-522 86-87-56-57-44 44-56-56 43-44-45-45-87 87 159 158Zm328 329 87-87-45-45-44 43-56-56 43-44-57-56-86 86 158 159Zm-31-510 56 56 56-56-57-57-55 57ZM290-120H120v-170l175-175L80-680l200-200 216 216 151-152q12-12 27-18t31-6q16 0 31 6t27 18l53 54q12 12 18 27t6 31q0 16-6 30.5T816-647L665-495l215 215L680-80 465-295 290-120Z"/></svg></span></div>
+          <h3>2. {% trans "Design & UX" %}</h3>
+          <p>{% blocktrans trimmed %}Wireframes and focused on usability and conversion.{% endblocktrans %} </p>
+        </div>
+        <div class="process-step">
+          <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Zm140-40-56-56 103-104-104-104 57-56 160 160-160 160Zm180 0v-80h240v80H480Z"/></svg></span></div>
+          <h3>3. {% trans "Development" %}</h3>
+          <p>{% blocktrans trimmed %}Clean, modern code for performance, SEO and scalability.{% endblocktrans %}</p>
+        </div>
+        <div class="process-step">
+          <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m98-537 168-168q14-14 33-20t39-2l52 11q-54 64-85 116t-60 126L98-537Zm205 91q23-72 62.5-136T461-702q88-88 201-131.5T873-860q17 98-26 211T716-448q-55 55-120 95.5T459-289L303-446Zm276-120q23 23 56.5 23t56.5-23q23-23 23-56.5T692-679q-23-23-56.5-23T579-679q-23 23-23 56.5t23 56.5ZM551-85l-64-147q74-29 126.5-60T730-377l10 52q4 20-2 39.5T718-252L551-85ZM162-318q35-35 85-35.5t85 34.5q35 35 35 85t-35 85q-25 25-83.5 43T87-74q14-103 32-161t43-83Z"/></svg></span></div>
+          <h3>4. {% trans "Launch" %}</h3>
+          <p>{% blocktrans trimmed %}Testing, deployment and handoff. Everything runs smoothly.{% endblocktrans %}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section featured-case">
+    <div class="container">
+      <div class="case-card">
+
+        <div class="blob blob--tr" aria-hidden="true"></div>
+        <div class="blob blob--bl" aria-hidden="true"></div>
+
+        <div class="case-content">
+          <span class="eyebrow">{% trans "Featured Case Study" %}</span>
+
+          <h2 class="case-title">{% trans "Purevia E-commerce Demo" %}</h2>
+
+          <p class="case-description">
+            {% blocktrans trimmed %}
+              A complete overhaul of a legacy financial dashboard for a Series A startup.
+              The focus was on simplifying complex data visualization and improving 
+              performance for daily active users.
+            {% endblocktrans %}
+          </p>
+
+          <ul class="case-metrics">
+            <li>
+              <strong>{% trans "Admin Panel" %}</strong>
+              <span>{% trans "Product & order management" %}</span>
+            </li>
+            <li>
+              <strong>{% trans "E-commerce Flow" %}</strong>
+              <span>{% trans "Cart, checkout & order history" %}</span>
+            </li>
+          </ul>
+
+          <a href="#" class="case-link">{% trans "View Case Study →" %}</a>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-placeholder">
+            {% trans "Project Preview" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section packages">
+    <div class="container">
+
+      <div class="packages-head">
+        <span class="eyebrow">{% trans "Services & Packages" %}</span>
+        <h2 class="packages-title">{% trans "How I can help you" %}</h2>
+        <p class="packages-sub">{% trans "Flexible engagement models tailored to your stage of business." %}</p>
+      </div>
+
+      <div class="packages-grid">
+
+        <a href="{% url 'umutdizmancom:contact' %}" class="package-card">
+          <div class="package-top">
+            <h3 class="package-name">{% trans "Starter" %}</h3>
+            <span class="package-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <p class="package-desc">{% trans "Perfect for MVP validation or personal portfolios." %}</p>
+
+          <p class="package-price">
+            <span class="price-accent">{% trans "From $149" %}</span>
+          </p>
+        </a>
+
+        <a href="{% url 'umutdizmancom:contact' %}" class="package-card is-featured">
+          <div class="package-top">
+            <h3 class="package-name">{% trans "Business" %}</h3>
+            <span class="package-arrow is-active" aria-hidden="true">↗</span>
+          </div>
+
+          <p class="package-desc">{% trans "For established companies needing a pro presence." %}</p>
+
+          <p class="package-price">
+            <span class="price-accent">{% trans "From $299" %}</span>
+          </p>
+        </a>
+
+        <a href="{% url 'umutdizmancom:contact' %}" class="package-card">
+          <div class="package-top">
+            <h3 class="package-name">{% trans "Pro" %}</h3>
+            <span class="package-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <p class="package-desc">{% trans "Complex web apps and custom development needs." %}</p>
+
+          <p class="package-price">
+            <span class="price-accent">{% trans "Custom Quote" %}</span>
+          </p>
+        </a>
+
+      </div>
+
+      <div class="packages-cta">
+        <a class="btn btn-secondary" href="{% url 'umutdizmancom:services' %}">
+          {% trans "Compare all packages" %}
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <section class="section final-cta">
+    <div class="container">
+
+      <div class="final-cta-inner">
+        <h2 class="final-cta-title">{% trans "Ready to get started" %}</h2>
+        <p class="final-cta-sub">{% blocktrans trimmed %}I take on a limited number of projects each month. Let’s see if we’re a good fit.{% endblocktrans %}</p>
+
+        <div class="final-cta-actions">
+          <a href="{% url 'umutdizmancom:contact' %}" class="btn btn-primary">{% trans "Book a Discovery Call" %}</a>
+
+          <a href="mailto:umutd.zman@gmail.com" class="btn btn-secondary">{% trans "Email Me" %} </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+{% endblock %}

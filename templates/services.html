@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block title %}{% trans "Services" %} | Umut Dizman{% endblock %}
+
+{% block extra_css %}<link rel="stylesheet" href="{% static 'css/services.css' %}">{% endblock %}
+
+{% block content %}
+<section class="section hero center">
+  <div class="container">
+    <div class="hero-inner">
+      <h1 class="hero-title">{% trans "Clear, Transparent " %} <span class="accent">{% trans "Packages" %}</span></h1>
+      <p class="hero-lead">{% blocktrans trimmed %}Straightforward packages for founders and small businesses. From simple MVPs to scalable web solutions, built without agency bloat.{% endblocktrans %}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section process">
+  <div class="container">
+    <span class="eyebrow">{% trans "How I Work" %}</span>
+    <h2>{% trans "Development Process" %}</h2>
+
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm160-320h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80Z"/></svg></span></div>
+        <h3>1. {% trans "Discovery" %}</h3>
+        <p>{% blocktrans trimmed %}We discuss your goals, audience and requirements to define a clear roadmap.{% endblocktrans %} </p>
+      </div>
+
+      <div class="process-step">
+        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m352-522 86-87-56-57-44 44-56-56 43-44-45-45-87 87 159 158Zm328 329 87-87-45-45-44 43-56-56 43-44-57-56-86 86 158 159Zm-31-510 56 56 56-56-57-57-55 57ZM290-120H120v-170l175-175L80-680l200-200 216 216 151-152q12-12 27-18t31-6q16 0 31 6t27 18l53 54q12 12 18 27t6 31q0 16-6 30.5T816-647L665-495l215 215L680-80 465-295 290-120Z"/></svg></span></div>
+        <h3>2. {% trans "Design & UX" %}</h3>
+        <p>{% blocktrans trimmed %}Wireframes and focused on usability and conversion.{% endblocktrans %} </p>
+      </div>
+      <div class="process-step">
+        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Zm140-40-56-56 103-104-104-104 57-56 160 160-160 160Zm180 0v-80h240v80H480Z"/></svg></span></div>
+        <h3>3. {% trans "Development" %}</h3>
+        <p>{% blocktrans trimmed %}Clean, modern code for performance, SEO and scalability.{% endblocktrans %}</p>
+      </div>
+      <div class="process-step">
+        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m98-537 168-168q14-14 33-20t39-2l52 11q-54 64-85 116t-60 126L98-537Zm205 91q23-72 62.5-136T461-702q88-88 201-131.5T873-860q17 98-26 211T716-448q-55 55-120 95.5T459-289L303-446Zm276-120q23 23 56.5 23t56.5-23q23-23 23-56.5T692-679q-23-23-56.5-23T579-679q-23 23-23 56.5t23 56.5ZM551-85l-64-147q74-29 126.5-60T730-377l10 52q4 20-2 39.5T718-252L551-85ZM162-318q35-35 85-35.5t85 34.5q35 35 35 85t-35 85q-25 25-83.5 43T87-74q14-103 32-161t43-83Z"/></svg></span></div>
+        <h3>4. {% trans "Launch" %}</h3>
+        <p>{% blocktrans trimmed %}Testing, deployment and handoff. Everything runs smoothly.{% endblocktrans %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--muted pricing">
+  <div class="container">
+    <div class="pricing-grid">
+
+      <article class="price-card">
+        <header class="price-head">
+          <h3>{% trans "Starter" %}</h3>
+          <p class="muted">{% trans "Fast, clean website for small businesses to get online and start receiving inquiries." %}</p>
+          <div class="price">{% trans "Starting at $149" %}</div>
+        </header>
+
+        <a class="btn btn-secondary btn-block" href="{% url 'umutdizmancom:contact' %}?package=starter">{% trans "Select Starter" %}</a>
+
+        <div class="price-body">
+          <div class="price-label">{% trans "What's included" %}</div>
+          <ul class="price-list">
+            <li>{% trans "Up to 4 pages" %}</li>
+            <li>{% trans "Mobile-first design" %}</li>
+            <li>{% trans "Contact form + WatsApp Button" %}</li>
+            <li>{% trans "Google Maps embed" %}</li>
+            <li>{% trans "Basic SEO + sitemap" %}</li>
+            <li>{% trans "SSL + deployment" %}</li>
+            <li>{% trans "1 revision round" %} </li>
+            <li>{% trans "5-7 days delivery" %} </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="price-card price-card--featured">
+        <div class="badge">{% trans "Most popular" %}</div>
+
+        <header class="price-head">
+          <h3>{% trans "Business" %}</h3>
+          <p class="muted">{% trans "A complete brand website with lead-focused sections and admin-managed content." %}</p>
+          <div class="price">{% trans "Starting at $299" %}</div>
+        </header>
+
+        <a class="btn btn-primary btn-block" href="{% url 'umutdizmancom:contact' %}?package=business">{% trans "Select Business" %}</a>
+
+        <div class="price-body">
+          <div class="price-label">{% trans "Everything in Starter, plus:" %}</div>
+          <ul class="price-list">
+            <li>{% trans "Up to 8 pages" %}</li>
+            <li>{% trans "Lead-focused section + forms" %}</li>
+            <li>{% trans "Blog/updates (Admin manageable)" %}</li>
+            <li>{% trans "Advanced SEO basics" %}</li>
+            <li>{% trans "Performance pass + image optimization" %}</li>
+            <li>{% trans "2 revision round" %} </li>
+            <li>{% trans "10-12 days delivery" %}</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="price-card">
+        <header class="price-head">
+          <h3>{% trans "Pro" %}</h3>
+          <p class="muted">{% trans "Complex web applications with custom functionality." %}</p>
+          <div class="price">{% trans "Custom" %}</div>
+        </header>
+
+        <a class="btn btn-secondary btn-block" href="{% url 'umutdizmancom:contact' %}?package=pro">{% trans "Contact for quote" %}</a>
+
+        <div class="price-body">
+          <div class="price-label">{% trans "Custom solutions for:" %}</div>
+          <ul class="price-list">
+            <li>{% trans "Custom web system (not just pages)" %}</li>
+            <li>{% trans "Admin panel + workflows" %} </li>
+            <li>{% trans "Auth & profiles" %}</li>
+            <li>{% trans "DB design" %}</li>
+            <li>{% trans "Integrations (payments/APIs)" %}</li>
+            <li>{% trans "Scalable architecture" %}</li>
+            <li>{% trans "Milestone-based delivery" %}</li>
+            <li>{% trans "Custom quote" %}</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="mini-cta">
+      <h3>{% trans "Need something different?" %}</h3>
+      <p class="muted">{% trans "Not sure which package fits? I can propose a custom scope and quote." %}</p>
+      <a class="link-accent" href="#contact">{% trans "Contact me for a custom quote →" %}</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="section-faq">
+  <div class="container">
+    <div class="faq-head">
+      <h2>{% trans "Common Questions" %}</h2>
+      <p>{% blocktrans trimmed %}Everything you need to know about working with me.{% endblocktrans %}</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h3>{% blocktrans trimmed %}How do payments work?{% endblocktrans %}</h3>
+        <p>{% blocktrans trimmed %}I work with clear, upfront pricing. Most projects start with a 50% deposit, and the remaining balance is paid after completion and launch. For larger or custom projects, milestone-based payments can be arranged.{% endblocktrans %}</p>
+      </div>
+      <div class="faq-item">
+        <h3>{% blocktrans trimmed %}How long does a project take?{% endblocktrans %}</h3>
+        <p>{% blocktrans trimmed %}Starter websites usually take 5–7 days. Business projects take around 10–14 days, depending on scope and how quickly feedback and content are provided.{% endblocktrans %}</p>
+      </div>
+      <div class="faq-item">
+        <h3>{% blocktrans trimmed %}What happens after the site is launched?{% endblocktrans %}</h3>
+        <p>{% blocktrans trimmed %}After launch, I provide a short support period to fix any issues. You can then either continue with maintenance support or fully manage the site yourself—I hand everything over cleanly.{% endblocktrans %}</p>
+      </div>
+      <div class="faq-item">
+        <h3>{% blocktrans trimmed %}Do you provide the content?{% endblocktrans %}</h3>
+        <p>{% blocktrans trimmed %}Content is usually provided by the client. However, I help structure the pages and guide you on what content is needed to make the site effective.{% endblocktrans %}</p>
+      </div>
+      <div class="faq-item">
+        <h3>{% blocktrans trimmed %}What kind of websites do you build?{% endblocktrans %}</h3>
+        <p>{% blocktrans trimmed %}I build business websites, landing pages, and custom web systems. From simple informational sites to admin-managed platforms, everything is built to be fast, secure, and scalable.{% endblocktrans %}</p>
+      </div>
+      <div class="faq-item">
+        <h3>{% blocktrans trimmed %}Do I own the website and code?{% endblocktrans %}</h3>
+        <p>{% blocktrans trimmed %}Yes. Once the project is completed and paid for, you own the website, code, and assets entirely. No subscriptions, no lock-in.{% endblocktrans %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cta">
+  <div class="container">
+    <div class="cta-panel">
+      <h2 class="cta-title">{% trans "Ready to start your project?" %}</h2>
+      <p class="cta-lead">
+        {% blocktrans trimmed %}
+          If you have a project in mind, let’s have a short call to see if we’re a good fit.
+        {% endblocktrans %}
+      </p>
+      <div class="cta-actions">
+        <a href="{% url 'umutdizmancom:contact' %}" class="btn btn-primary">
+          {% trans "Book a discovery call" %}
+        </a>
+        <a href="mailto:umutd.zman@gmail.com" class="btn btn-secondary">
+          {% trans "Email me" %}
+        </a>
+      </div> 
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}

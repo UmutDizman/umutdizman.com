@@ -1,0 +1,155 @@
+/* ================= HIRE ME ================= */
+
+.hire-me{
+  padding: 8rem 0;
+  background: var(--bg);
+}
+
+.hire-me-inner{
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.hire-me-content {
+  padding: 4rem 0;
+}
+
+.hire-title{
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+.hire-title .accent{ 
+  color: var(--primary);
+  font-weight: 900; 
+}
+
+.hire-me-desc{
+  max-width: 62ch;
+  margin: 0 auto 2.25rem;
+  color: var(--muted);
+  line-height: 1.75;
+  font-size: 1.1rem;
+}
+
+/* ================= TRUST STRIP (NO CARD) ================= */
+
+.trust-strip{
+  /* tek sistem: GRID */
+  display: grid;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2.25rem auto 3rem;
+  max-width: 980px;
+
+  /* mobil: tek kolon */
+  grid-template-columns: 1fr;
+  text-align: left;
+}
+
+@media (min-width: 720px){
+  .trust-strip{
+    /* tablet: 3 kolon */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+  }
+}
+
+.trust-item{
+  /* ikon + metin hizası */
+  display: flex;
+  align-items: flex-start;
+  gap: .9rem;
+
+  /* KART YOK: bg/radius/shadow/border YOK */
+  padding: 0;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+@media (min-width: 720px){
+  .trust-item{
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+  }
+}
+
+.trust-icon{
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+
+  /* sadece ikon “badge” gibi, ama item card değil */
+  background: rgba(37,99,235,.10);
+  color: var(--primary);
+
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+}
+
+/* iconu svg ile basacaksan bunu kullanırsın */
+.trust-icon svg{
+  width: 22px;
+  height: 22px;
+  opacity: .9;
+}
+
+.trust-title{
+  margin: 0 0 .25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.trust-desc{
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: .95rem;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn-area{
+  display: flex;
+  justify-content: center;
+  gap: .9rem;
+  flex-wrap: wrap;
+  margin: 0 0 1.1rem;
+}
+
+.btn-area .btn{
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+}
+
+/* Eğer ikon kullanmayacaksan area-iconu komple sil gitsin.
+   Kullanacaksan: primaryde beyaz overlay iyi, secondaryde gri kalsın */
+.area-icon{
+  width: 18px;
+  height: 18px;
+
+}
+
+
+
+/* ================= MICROCOPY ================= */
+
+.micro{
+  margin: 0 auto;
+  max-width: 82ch;
+  color: rgba(17,24,39,.55);
+  font-size: .95rem;
+  line-height: 1.6;
+}

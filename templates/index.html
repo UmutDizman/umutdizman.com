@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}Umut Dizman - {% trans "Home" %}{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{% static 'css/style.css' %}">{% endblock %}
+
+{% block content %}
+    <section class="section hero">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <h1>{% blocktrans trimmed %}I build <span class="text-acent">reliable and fast </span>web solutions for founders.{% endblocktrans %}</h1>
+                <p>{% blocktrans trimmed %}Custom business and portfolio websites with design, development, SSL setup and secure deployment - all in one place.{% endblocktrans %}</p>
+            
+                <div class="hero-actions">
+                    <a href="{% url 'umutdizmancom:services' %}" class="btn btn-primary">{% trans "View Services" %}</a>
+                    <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-secondary">{% trans "View Projects" %}</a>
+                </div>
+
+                <p class="hero-tags">{% blocktrans trimmed %}Django · Design · SSL · Deployment · Admin Panel{% endblocktrans %}</p>
+            </div>
+
+            <div class="hero-visual">
+                <!--Görsel gelecek: izometrik ve animasyonlu hedef img gecici-->
+                <img src="{% static 'images/Frame.png' %}" alt="{% trans 'Website preview' %}"/>
+            </div>
+        </div>    
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>{% blocktrans trimmed %}Websites built to grow your business{% endblocktrans %}</h2>
+            <p class="section-subtitle">{% blocktrans trimmed %}From simple landing pages to full business websites—designed, built, and deployed.{% endblocktrans %}</p>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>{% trans "Starter" %}</h3>
+                        <p>{% blocktrans trimmed %}A fast and clean website to get your business online. Up to 4 pages, responsive design, basic SEO, SSL, and deployment.{% endblocktrans %} </p>
+                        <a href="{% url 'umutdizmancom:services' %}" class="card-link">{% trans "See details →" %}</a>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-extra">{% trans "Best for getting online fast" %}</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>{% trans "Business" %}</h3>
+                        <p>{% blocktrans trimmed %}A complete business website built to attract and convert customers. Designed, built, and deployed from start to finish.{% endblocktrans %}</p>
+                        <a href="{% url 'umutdizmancom:services' %}" class="card-link">{% trans "Most popular →" %}</a>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-extra">{% trans "Best for businesses that want more leads" %}</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>{% trans "Pro" %}</h3>
+                        <p>{% blocktrans trimmed %}A fully custom website for brands that need something unique. Custom design, extended pages, and tailored features.{% endblocktrans %}</p>
+                        <a href="{% url 'umutdizmancom:services' %}" class="card-link">{% trans "See details →" %}</a>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-extra">{% trans "Best for custom design and unique needs" %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Project Teaser-->
+    <section class="section section-alt">
+        <div class="container">
+            <h2>{% trans "Selected project" %}</h2>
+
+            <div class="project-teaser">
+                <div>
+                    <h3>{% trans "Purevia - E-commerce demo" %}</h3>
+                    <p>{% blocktrans trimmed %}A real-world e-commerce website designed to demonstrate how online stores actually work. Product listings, cart flow, admin panel, and secure production deployment included.{% endblocktrans %}</p>
+                    <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-secondary">{% trans "View full case study" %}</a>
+                </div>
+
+                <div class="project-thumb">
+                    <img src="{% static 'images/upbadge.png' %}" alt="{% trans 'Website preview' %}"/>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

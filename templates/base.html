@@ -1,0 +1,115 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Umut Dizman - Web Developer{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/globalroots.css' %}">
+    {% block extra_css %}{% endblock %}
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a href="{% url 'umutdizmancom:home' %}" class="nav-brand">
+               <span class="brand-badge" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="brand-icon" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+                </span>
+                <span class="brand-text">Umut Dizman</span>
+            </a>
+            
+            <nav class="nav" aria-label="{% trans 'Primary' %}">
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="{% url 'umutdizmancom:services' %}">{% trans "Services" %}</a></li>
+                    <li><a class="nav-link" href="{% url 'umutdizmancom:projects' %}">{% trans "Projects" %}</a></li>
+                    <li><a class="nav-link" href="{% url 'umutdizmancom:about' %}">{% trans "About" %}</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <details class="lang">
+                    <summary class="lang-btn" aria-label="{% trans 'Language' %}">
+                        <span class="flag-circle" aria-hidden="true">
+                            <img src="{% static 'icons/flags/' %}{% if request.LANGUAGE_CODE == 'tr' %}tr{% else %}sh{% endif %}.svg" alt="{% trans 'Flag icon' %}">
+                        </span>
+                        <span class="lang-sep" aria-hidden="true">|</span>
+                        <span class="lang-code">
+                            {% if request.LANGUAGE_CODE == 'tr' %}TR{% else %}EN{% endif %}
+                        </span>
+                        
+                    </summary>
+
+                    <div class="lang-panel" role="menu">
+                        <form action="{% url 'set_language' %}" method="post" class="lang-form">
+                            {% csrf_token %}
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+
+                            <button type="submit" name="language" value="tr" class="lang-item">
+                                <span aria-hidden="true" class="flag-circle">
+                                    <img src="{% static 'icons/flags/tr.svg' %}" alt="{% trans 'Turkey flag' %}">
+                                </span>
+                                <span>TR</span>
+                            </button>
+
+                            <button type="submit" name="language" value="en" class="lang-item">
+                                <span aria-hidden="true" class="flag-circle">
+                                    <img src="{% static 'icons/flags/sh.svg' %}" alt="{% trans 'England flag' %}">
+                                </span>
+                                <span>EN</span>
+                            </button>
+                        </form>
+                    </div>
+                </details>
+
+                <a href="{% url 'umutdizmancom:hire_me' %}" class="btn btn-primary">{% trans "Hire Me" %}</a>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="brand-badge"><svg xmlns="http://www.w3.org/2000/svg" class="brand-icon" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg></span>
+                        <span class="logo-text">Umut Dizman</span>
+                    </div>
+                    <div class="footer-desc">
+                        {% blocktrans trimmed %}
+                            Freelance web developer building fast, reliable websites for small businesses and brands.
+                        {% endblocktrans %}
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>{% trans "Sitemap" %}</h4>
+
+                    <ul>
+                        <li><a href="{% url 'umutdizmancom:home' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'umutdizmancom:projects' %}">{% trans "Projects" %}</a></li>
+                        <li><a href="{% url 'umutdizmancom:services' %}">{% trans "Services" %}</a></li>
+                        <li><a href="{% url 'umutdizmancom:about' %}">{% trans "About" %}</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>{% trans "Socials" %}</h4>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {% now "Y" %} Umut Dizman. {% trans "All rights reserved." %}</p>
+                <a href="mailto:umutd.zman@gmail.com">umutd.zman@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
