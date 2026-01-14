@@ -129,17 +129,7 @@
 }
 
 .btn-area .btn{
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
-}
-
-/* Eğer ikon kullanmayacaksan area-iconu komple sil gitsin.
-   Kullanacaksan: primaryde beyaz overlay iyi, secondaryde gri kalsın */
-.area-icon{
-  width: 18px;
-  height: 18px;
-
+  min-width: 190px;
 }
 
 

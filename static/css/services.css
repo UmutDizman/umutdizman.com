@@ -162,7 +162,11 @@
   color: var(--text);
 }
 
-.btn-block{ width: 100%; justify-content: center; margin: 18px 0 10px; }
+.btn-block{ 
+  width: 100%; 
+  justify-content: center; 
+  margin: 18px 0 10px; 
+}
 
 .price-body{
   border-top: 1px solid var(--border);
@@ -223,7 +227,10 @@
   color: var(--primary);
   font-weight: 600;
 }
-.link-accent:hover{ color: var(--primary-hover); }
+.link-accent:hover{ 
+  color: var(--primary-hover);
+  text-decoration: underline; 
+}
 
 
 /* FAQ sorular bölümü */
@@ -315,22 +322,4 @@
   gap: 14px;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.section--cta .btn{
-  height: 48px;
-  padding: 0 22px;
-  border-radius: 12px;
-  font-weight: 800;
-}
-
-.section--cta .btn-secondary{
-  background: #fff;
-  border: 1px solid rgba(17,24,39,.12);
-  color: var(--text);
-}
-
-.btn-secondary:hover{
-  background: rgba(17,24,39,.03);
-  border-color: rgba(17,24,39,.18);
 }

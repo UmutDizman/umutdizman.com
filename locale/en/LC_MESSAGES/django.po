@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-13 19:12+0300\n"
+"POT-Creation-Date: 2026-01-14 11:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,8 +205,8 @@ msgstr ""
 msgid "Cart, checkout & order history"
 msgstr ""
 
-#: .\templates\about.html:154
-msgid "View Case Study →"
+#: .\templates\about.html:154 .\templates\projects.html:61
+msgid "View Case Study"
 msgstr ""
 
 #: .\templates\about.html:159 .\templates\projects.html:78
@@ -586,10 +586,6 @@ msgstr ""
 msgid "Cart, checkout validation, order tracking, and order history."
 msgstr ""
 
-#: .\templates\projects.html:61
-msgid "View Case Study"
-msgstr ""
-
 #: .\templates\projects.html:69
 msgid "Purevia preview"
 msgstr ""
@@ -907,7 +903,7 @@ msgid "Not sure which package fits? I can propose a custom scope and quote."
 msgstr ""
 
 #: .\templates\services.html:131
-msgid "Contact me for a custom quote →"
+msgid "Contact me for a custom quote"
 msgstr ""
 
 #: .\templates\services.html:140

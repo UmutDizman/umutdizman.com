@@ -128,7 +128,7 @@
     <div class="mini-cta">
       <h3>{% trans "Need something different?" %}</h3>
       <p class="muted">{% trans "Not sure which package fits? I can propose a custom scope and quote." %}</p>
-      <a class="link-accent" href="#contact">{% trans "Contact me for a custom quote →" %}</a>
+      <a class="cta-link" href="{% url 'umutdizmancom:contact' %}?package=custom">{% trans "Contact me for a custom quote" %}</a>
     </div>
 
   </div>
@@ -182,7 +182,7 @@
         <a href="{% url 'umutdizmancom:contact' %}" class="btn btn-primary">
           {% trans "Book a discovery call" %}
         </a>
-        <a href="mailto:umutd.zman@gmail.com" class="btn btn-secondary">
+        <a href="mailto:umutd.zman@gmail.com" class="btn btn-secondary icon icon-email">
           {% trans "Email me" %}
         </a>
       </div> 

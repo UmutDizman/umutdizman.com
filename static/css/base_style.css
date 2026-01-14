@@ -1,3 +1,6 @@
+input, textarea, select, button{
+  font: inherit;
+}
 
 *,
 *::before,
@@ -260,6 +263,8 @@ img {
   padding:10px 14px;
 }
 
+
+/* ================ BUTTONS ================ */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -283,8 +288,72 @@ img {
   background: #fff;
   color: var(--text);
   border: 1px solid rgba(17,24,39,.12);
+  opacity: .8;
 }
 
+.btn-secondary:hover{
+  background: rgba(17,24,39,.03);
+  border-color: rgba(17,24,39,.18);
+}
+
+
+/* ===== ICON SYSTEM (before = left icon) ===== */
+.icon::before{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: .6rem;
+  background: currentColor;
+  align-items: center;
+  transform: translateY(-1px);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+          mask-repeat: no-repeat;
+          mask-position: center;
+          mask-size: contain;
+}
+
+/* icon files */
+.icon-email::before{
+  -webkit-mask-image: url("/static/icons/mail.svg");
+          mask-image: url("/static/icons/mail.svg");
+}
+
+
+/* CTA link - button değil */
+.cta-link{
+  display: inline-flex;
+  align-items: center;
+
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+
+  /* “çok ortalıyor” hissini kıran küçük detay */
+  padding: .25rem .15rem; /* minik tıklama alanı ama button gibi değil */
+}
+
+.cta-link:hover{ 
+  text-decoration: underline; 
+  text-underline-offset: 4px; }
+
+.cta-link::after{
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: currentColor;
+  -webkit-mask: url("/static/icons/arrow-right.svg") no-repeat center / contain;
+          mask: url("/static/icons/arrow-right.svg") no-repeat center / contain;
+  opacity: .95;
+  transform: translateY(1px);
+  transition: transform .15s ease;
+}
+
+.cta-link:hover::after{
+  transform: translate(2px, 1px);
+}
 
 /*  FOOTEEER  */
 
@@ -385,3 +454,4 @@ img {
   color: rgba(17,24,39,.92);
   font-weight: 600;
 }
+

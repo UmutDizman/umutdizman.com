@@ -62,6 +62,9 @@
   border-radius: 16px;          /* 18 -> 16 */
   padding: 16px 16px;           /* 18 -> 16 */
   font-size: 1rem;
+  font-family: inherit;
+  font-size: 1rem; 
+  line-height: 1.4; 
   outline: none;
   transition: border-color .18s ease, box-shadow .18s ease;
 }
