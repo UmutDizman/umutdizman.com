@@ -19,6 +19,11 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
 
+
+handler403 = "umutdizmancom.views.error_403"
+handler404 = "umutdizmancom.views.error_404"
+handler500 = "umutdizmancom.views.error_500"
+
 urlpatterns = [
     path("i18n/", include("django.conf.urls.i18n")),
     

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 11:07+0300\n"
+"POT-Creation-Date: 2026-01-14 15:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Umut DİZMAN <umutd.zman@gmail.com>\n"
 "Language-Team: Turkish \n"
@@ -24,6 +24,95 @@ msgstr "İngilizce"
 #: .\Portfoy\settings.py:115
 msgid "Turkish"
 msgstr "Türkçe"
+
+#: .\templates\403.html:18
+msgid "403 Forbidden"
+msgstr "403 Erişim Engellendi"
+
+#: .\templates\403.html:19
+msgid "Access Denied"
+msgstr "Erişim Reddedildi"
+
+#: .\templates\403.html:21
+msgid ""
+"You don’t have permission to access this page. If this seems wrong, feel "
+"free to contact me."
+msgstr "Bu sayfaya erişim izniniz yok. Bir hata olduğunu düşünüyorsanız bana yazabilirsiniz."
+
+#: .\templates\403.html:33 .\templates\404.html:30 .\templates\500.html:34
+#: .\templates\base.html:91 .\templates\index.html:5
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: .\templates\403.html:34 .\templates\404.html:31 .\templates\500.html:35
+msgid ""
+"Start over from the beginning. Return to the home page to explore my "
+"services."
+msgstr "Baştan başlamak için ana sayfaya dönün ve hizmetlerimi inceleyin."
+
+#: .\templates\403.html:35 .\templates\404.html:32 .\templates\500.html:36
+msgid "Go Back to Home"
+msgstr "Ana Sayfaya Dön"
+
+#: .\templates\403.html:42 .\templates\404.html:37 .\templates\500.html:43
+#: .\templates\base.html:26 .\templates\base.html:92
+msgid "Projects"
+msgstr "Projeler"
+
+#: .\templates\403.html:43 .\templates\404.html:38 .\templates\500.html:44
+msgid "Explore my modern web applications and e-commerce solutions."
+msgstr "Modern web uygulamalarımı ve e-ticaret çözümlerimi inceleyin."
+
+#: .\templates\403.html:44 .\templates\404.html:39 .\templates\500.html:45
+msgid "View Portfolio"
+msgstr "Projeleri Gör"
+
+#: .\templates\403.html:51 .\templates\404.html:44 .\templates\500.html:52
+#: .\templates\hire_me.html:6
+msgid "Contact"
+msgstr "İletişim"
+
+#: .\templates\403.html:52 .\templates\404.html:45 .\templates\500.html:53
+msgid ""
+"If you couldn't find what you were looking for or have a project idea, reach "
+"out to me."
+msgstr "Aradığınızı bulamadıysanız ya da bir proje fikriniz varsa, bana ulaşın."
+
+#: .\templates\403.html:53 .\templates\404.html:46 .\templates\500.html:54
+msgid "Send a Message"
+msgstr "Mesaj Gönder"
+
+#: .\templates\403.html:58 .\templates\404.html:51 .\templates\500.html:59
+msgid "Go back to the previous page"
+msgstr "Önceki sayfaya dön"
+
+#: .\templates\404.html:18
+msgid "404 ERROR"
+msgstr "404 Sayfa Bulunamadı"
+
+#: .\templates\404.html:19
+msgid "We couldn't find what you were looking for."
+msgstr "Aradığınız sayfayı bulamadık."
+
+#: .\templates\404.html:21
+msgid ""
+"Don’t worry — links sometimes change or pages move. Here are a few helpful "
+"links to get you back on track."
+msgstr "Sorun değil — bazen bağlantılar değişir veya sayfalar taşınır. Aşağıdaki bağlantılarla devam edebilirsiniz."
+
+#: .\templates\500.html:18
+msgid "500 Internal Server Error"
+msgstr "500 Sunucu Hatası"
+
+#: .\templates\500.html:19
+msgid "Something went wrong on our end."
+msgstr "Bizim tarafta bir şey ters gitti."
+
+#: .\templates\500.html:21
+msgid ""
+"Don’t worry — this isn’t your fault. We’re experiencing a technical issue, "
+"but you can continue using the site through the links below."
+msgstr "Merak etmeyin — bu sizin hatanız değil. Şu an teknik bir sorun yaşıyoruz, ama aşağıdaki bağlantılarla siteyi kullanmaya devam edebilirsiniz."
 
 #: .\templates\about.html:5 .\templates\base.html:27 .\templates\base.html:94
 msgid "About"
@@ -300,7 +389,7 @@ msgid "Book a Discovery Call"
 msgstr "Kısa Bir Görüşme Planla"
 
 #: .\templates\about.html:236 .\templates\contact.html:74
-#: .\templates\hire_me.html:67
+#: .\templates\hire_me.html:65
 msgid "Email Me"
 msgstr "E-posta Gönder"
 
@@ -312,10 +401,6 @@ msgstr ""
 #: .\templates\projects.html:6 .\templates\services.html:4
 msgid "Services"
 msgstr "Hizmetler"
-
-#: .\templates\base.html:26 .\templates\base.html:92
-msgid "Projects"
-msgstr "Projeler"
 
 #: .\templates\base.html:33
 msgid "Language"
@@ -348,10 +433,6 @@ msgstr ""
 #: .\templates\base.html:88
 msgid "Sitemap"
 msgstr "Site Haritası"
-
-#: .\templates\base.html:91 .\templates\index.html:5
-msgid "Home"
-msgstr "Ana Sayfa"
 
 #: .\templates\base.html:99
 msgid "Socials"
@@ -422,10 +503,6 @@ msgstr "Mesajını aldım. 24 saat içinde dönüş yapacağım."
 msgid "Go Home"
 msgstr "Ana Sayfa"
 
-#: .\templates\hire_me.html:6
-msgid "Contact"
-msgstr "İletişim"
-
 #: .\templates\hire_me.html:16
 msgid "project?"
 msgstr "proje mi var?"
@@ -466,11 +543,11 @@ msgstr "Net kapsam, sürpriz yok"
 msgid "What we agree on upfront is what gets delivered."
 msgstr "Başta neye anlaştıysak, teslim edilen de tam olarak odur."
 
-#: .\templates\hire_me.html:62 .\templates\projects.html:273
+#: .\templates\hire_me.html:61 .\templates\projects.html:273
 msgid "Start a Project"
 msgstr "Projeyi Başlat"
 
-#: .\templates\hire_me.html:71
+#: .\templates\hire_me.html:69
 msgid ""
 "\"This is not a sales call. We’re simply checking whether your project is a "
 "good fit.\""
@@ -1093,6 +1170,3 @@ msgstr ""
 #: .\umutdizmancom\views.py:51
 msgid "Thanks! Your message has been sent."
 msgstr "Teşekkürler! Mesajın ulaştı."
-
-#~ msgid "View Case Study →"
-#~ msgstr "Detayları Gör →"

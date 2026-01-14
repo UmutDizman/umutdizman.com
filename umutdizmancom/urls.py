@@ -7,6 +7,8 @@ app_name = "umutdizmancom"
 
 
 
+
+
 urlpatterns = [
     
     path("", views.home, name="home"),

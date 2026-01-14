@@ -59,3 +59,13 @@ def contact_view(request):
 
 def contact_success_view(request):
     return render(request, "contact_success.html")
+
+
+def error_403(request, exception=None):
+    return render(request, "403.html", status=403)
+
+def error_404(request, exception=None):
+    return render(request, "404.html", status=404)
+
+def error_500(request):
+    return render(request, "500.html", status=500)

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}500 | Umut Dizman{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/error.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="error">
+  <div class="container error-wrap">
+
+    <div class="error-top">
+      <div class="error-icon">
+        <span class="error-icon-500"></span>
+      </div>
+      <div class="error-code">{% trans "500 Internal Server Error" %}</div>
+      <h1 class="error-title">{% trans "Something went wrong on our end." %}</h1>
+      <p class="error-lead">
+        {% blocktrans trimmed %}
+            Don’t worry — this isn’t your fault.
+            We’re experiencing a technical issue, but you can continue
+            using the site through the links below.
+        {% endblocktrans %}
+      </p>
+    </div>
+
+    <div class="error-grid">
+      <article class="error-card">
+        <div class="error-card-icon">
+            <span class="icon-home"></span>
+        </div>
+        <h3>{% trans "Home" %}</h3>
+        <p>{% trans "Start over from the beginning. Return to the home page to explore my services." %}</p>
+        <a class="cta-link" href="/">{% trans "Go Back to Home" %}</a>
+      </article>
+
+      <article class="error-card">
+        <div class="error-card-icon">
+            <span class="icon-layers"></span>
+        </div>
+        <h3>{% trans "Projects" %}</h3>
+        <p>{% trans "Explore my modern web applications and e-commerce solutions." %}</p>
+        <a class="cta-link" href="{% url 'umutdizmancom:projects' %}">{% trans "View Portfolio" %}</a>
+      </article>
+
+      <article class="error-card">
+        <div class="error-card-icon">
+            <span class="icon-email"></span>
+        </div>
+        <h3>{% trans "Contact" %}</h3>
+        <p>{% trans "If you couldn't find what you were looking for or have a project idea, reach out to me." %}</p>
+        <a class="cta-link" href="{% url 'umutdizmancom:contact' %}">{% trans "Send a Message" %}</a>
+      </article>
+    </div>
+
+    <div class="error-back">
+      <a class="error-back-link" href="javascript:history.back()">{% trans "Go back to the previous page" %}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}
