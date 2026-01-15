@@ -296,6 +296,12 @@ img {
   border-color: rgba(17,24,39,.18);
 }
 
+.btn-block{
+  width: 100%;
+  justify-content: center;
+}
+
+
 
 /* ===== ICON SYSTEM (before = left icon) ===== */
 .icon::before{

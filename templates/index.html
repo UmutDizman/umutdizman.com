@@ -9,20 +9,22 @@
     <section class="section hero">
         <div class="container hero-grid">
             <div class="hero-copy">
-                <h1>{% blocktrans trimmed %}I build <span class="text-acent">reliable and fast </span>web solutions for founders.{% endblocktrans %}</h1>
-                <p>{% blocktrans trimmed %}Custom business and portfolio websites with design, development, SSL setup and secure deployment - all in one place.{% endblocktrans %}</p>
-            
-                <div class="hero-actions">
-                    <a href="{% url 'umutdizmancom:services' %}" class="btn btn-primary">{% trans "View Services" %}</a>
-                    <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-secondary">{% trans "View Projects" %}</a>
+                <div class="hero-head">
+                    <h1>{% blocktrans trimmed %}I build <span class="text-acent">reliable and fast </span>web solutions for founders.{% endblocktrans %}</h1>
+                    <p class="hero-subtitle">{% blocktrans trimmed %}Custom business and portfolio websites with design, development, SSL setup and secure deployment - all in one place.{% endblocktrans %}</p>
                 </div>
-
-                <p class="hero-tags">{% blocktrans trimmed %}Django · Design · SSL · Deployment · Admin Panel{% endblocktrans %}</p>
+                <div class="hero-footer">
+                   <div class="hero-actions">
+                        <a href="{% url 'umutdizmancom:services' %}" class="btn btn-primary">{% trans "View Services" %}</a>
+                        <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-secondary">{% trans "View Projects" %}</a>
+                    </div>
+                    <p class="hero-tags">{% blocktrans trimmed %}Django · Design · SSL · Deployment · Admin Panel{% endblocktrans %}</p> 
+                </div>
             </div>
 
             <div class="hero-visual">
                 <!--Görsel gelecek: izometrik ve animasyonlu hedef img gecici-->
-                <img src="{% static 'images/Frame.png' %}" alt="{% trans 'Website preview' %}"/>
+                <img src="{% static 'images/izometric1.jpeg' %}" alt="{% trans 'Website preview' %}"/>
             </div>
         </div>    
     </section>
@@ -33,34 +35,60 @@
             <p class="section-subtitle">{% blocktrans trimmed %}From simple landing pages to full business websites—designed, built, and deployed.{% endblocktrans %}</p>
 
             <div class="card-grid">
-                <div class="card">
+                <div class="card card--pricing">
                     <div class="card-body">
-                        <h3>{% trans "Starter" %}</h3>
-                        <p>{% blocktrans trimmed %}A fast and clean website to get your business online. Up to 4 pages, responsive design, basic SEO, SSL, and deployment.{% endblocktrans %} </p>
-                        <a href="{% url 'umutdizmancom:services' %}" class="card-link">{% trans "See details →" %}</a>
-                    </div>
-                    <div class="card-footer">
-                        <span class="card-extra">{% trans "Best for getting online fast" %}</span>
+                        <div class="card-top">
+                            <h3>{% trans "Starter" %}</h3>
+                            <span class="card-badge">MVP</span>
+                        </div>
+                        <p class="card-desc">{% blocktrans trimmed %}A fast and clean website to get your business online. Up to 4 pages, responsive design, basic SEO, SSL, and deployment.{% endblocktrans %}</p>
+                        <div class="card-actions">
+                           <a href="{% url 'umutdizmancom:services' %}" class="btn btn-secondary btn-block">{% trans "See details" %}</a> 
+                           <ul class="card-features">
+                              <li>{% trans "Responsive design" %} </li>
+                              <li>{% trans "Basic SEO" %} </li>
+                              <li>{% trans "SSL + deployment" %} </li>
+                              <li>{% trans "Contact form" %} </li>
+                           </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card card--pricing card--popular">  
                     <div class="card-body">
-                        <h3>{% trans "Business" %}</h3>
-                        <p>{% blocktrans trimmed %}A complete business website built to attract and convert customers. Designed, built, and deployed from start to finish.{% endblocktrans %}</p>
-                        <a href="{% url 'umutdizmancom:services' %}" class="card-link">{% trans "Most popular →" %}</a>
-                    </div>
-                    <div class="card-footer">
-                        <span class="card-extra">{% trans "Best for businesses that want more leads" %}</span>
+                        <div class="card-top">
+                            <h3>{% trans "Business" %}</h3>
+                            <span class="card-badge card-badge--popular">{% trans "Popular" %}</span>
+                        </div>  
+                        <p class="card-desc">{% blocktrans trimmed %}A complete business website built to attract and convert customers. Designed, built, and deployed from start to finish.{% endblocktrans %}</p>
+                        <div class="card-actions">
+                            <a href="{% url 'umutdizmancom:services' %}" class="btn btn-primary btn-block">{% trans "See details" %}</a>
+                             <ul class="card-features">
+                                <li>{% trans "Custom sections (services/portfolio)" %} </li>
+                                <li>{% trans "Lead-focused contact flow" %} </li>
+                                <li>{% trans "Admin panel (optional)" %} </li>
+                                <li>{% trans "Analytics setup" %} </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card card--pricing">
                     <div class="card-body">
-                        <h3>{% trans "Pro" %}</h3>
-                        <p>{% blocktrans trimmed %}A fully custom website for brands that need something unique. Custom design, extended pages, and tailored features.{% endblocktrans %}</p>
-                        <a href="{% url 'umutdizmancom:services' %}" class="card-link">{% trans "See details →" %}</a>
-                    </div>
-                    <div class="card-footer">
-                        <span class="card-extra">{% trans "Best for custom design and unique needs" %}</span>
+                        <div class="card-top">
+                            <h3>{% trans "Pro" %}</h3>
+                            <span class="card-badge">Custom</span>
+                        </div>
+
+                        <p class="card-desc">{% blocktrans trimmed %}A fully custom website for brands that need something unique. Custom design, extended pages, and tailored features.{% endblocktrans %}</p>
+                        <div class="card-actions">
+                            <a href="{% url 'umutdizmancom:services' %}" class="btn btn-secondary btn-block">{% trans "See details" %}</a>
+                             <ul class="card-features">
+                                <li>{% trans "Custom features (booking/payment)" %} </li>
+                                <li>{% trans "Integrations (APIs)" %} </li>
+                                <li>{% trans "Performance & SEO pass" %} </li>
+                                <li>{% trans "Maintenance option" %} </li>
+                            </ul>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -72,18 +100,64 @@
     <section class="section section-alt">
         <div class="container">
             <h2>{% trans "Selected project" %}</h2>
+            <p class="section-subtitle">{% trans "A closer look at how I tackle real-world problems." %}</p>
 
-            <div class="project-teaser">
-                <div>
-                    <h3>{% trans "Purevia - E-commerce demo" %}</h3>
+            <div class="featured featured--project">
+                <div class="featured-copy">
+                    <div class="featured-meta">
+                        <span class="pill">{% trans "CASE STUDY" %}</span>
+                        <span class="meta-text">2025</span>
+                    </div>
+
+                    <h3>{% trans "Purevia — E-commerce demo" %}</h3>
                     <p>{% blocktrans trimmed %}A real-world e-commerce website designed to demonstrate how online stores actually work. Product listings, cart flow, admin panel, and secure production deployment included.{% endblocktrans %}</p>
-                    <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-secondary btn--arrow">{% trans "View full case study" %}</a>
+
+                    <div class="feature-mini-grid">
+                        <div class="mini-card">
+                            <span class="mini-icon icon-layers"></span>
+                            <div>
+                                <strong>{% trans "E-commerce flow" %}</strong>
+                                <small>{% trans "Cart & checkout" %}</small>
+                            </div>
+                        </div>
+
+                    <div class="mini-card">
+                        <span class="mini-icon icon-home"></span>
+                        <div>
+                            <strong>{% trans "Admin panel" %}</strong>
+                            <small>{% trans "Inventory control" %}</small>
+                        </div>
+                    </div>
+
+                    <div class="mini-card">
+                        <span class="mini-icon icon-check"></span>
+                        <div>
+                            <strong>{% trans "Performance" %}</strong>
+                            <small>{% trans "Fast pages" %}</small>
+                        </div>
+                    </div>
+
+                    <div class="mini-card">
+                        <span class="mini-icon icon-email"></span>
+                        <div>
+                            <strong>{% trans "Secure setup" %}</strong>
+                            <small>{% trans "SSL + deploy" %}</small>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="featured-actions">
+                        <a href="{% url 'umutdizmancom:projects' %}" class="btn btn-primary btn--arrow">
+                            {% trans "View full case study" %}
+                        </a>
+                    </div>
                 </div>
 
-                <div class="project-thumb">
-                    <img src="{% static 'images/upbadge.png' %}" alt="{% trans 'Website preview' %}"/>
+                <div class="featured-media">
+                    <img src="{% static 'images/purevia_home.png' %}" alt="{% trans 'Website preview' %}">
                 </div>
             </div>
         </div>
     </section>
+
 {% endblock %}
