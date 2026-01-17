@@ -3,7 +3,8 @@
 
 {% load static %}
 
-{% block title %}{% trans "Services" %} | Umut Dizman{% endblock %}
+{% block title %}{% trans "Projects" %} | Umut Dizman{% endblock %}
+{% block meta_description %}{% trans "Selected web projects showcasing business websites, admin panels, and e-commerce solutions built with Django." %}{% endblock %}
 
 {% block extra_css %} <link rel="stylesheet" href="{% static 'css/projects.css' %}"> {% endblock %}
 
@@ -66,18 +67,18 @@
           <div class="fp-preview">
             <div class="fp-preview-inner">
               <!-- Görsel arkada -->
-              <img class="fp-image" src="{% static 'images/izometric1.jpeg' %}" alt="{% trans 'Purevia preview' %}">
+              <img class="fp-image" src="{% static 'images/izometric1.webp' %}" alt="{% trans 'Purevia preview' %}" loading="lazy" decoding="async">
 
-              <!-- Placeholder/overlay üstte kalsın -->
+              <!-- Placeholder/overlay üstte kalsın
               <div class="fp-overlay">
                 <div class="fp-preview-icon" aria-hidden="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
                       <path d="M200-160q-33 0-56.5-23.5T120-240v-480q0-33 23.5-56.5T200-800h560q33 0 56.5 23.5T840-720v480q0 33-23.5 56.5T760-160H200Zm0-80h560v-480H200v480Zm80-80h400L560-520 440-360 360-460 280-320Z"/>
                     </svg>
-                  </div>
+                </div>
                 <div class="fp-preview-text">{% trans "Project Preview" %}</div>
               </div>
-
+              -->
             </div>
           </div>
         </div>
@@ -90,10 +91,10 @@
     <div class="container">
       <div class="breakdown-grid">
 
-        <article class="breakdown-card">
+        <article class="breakdown-card" id="purevia-breakdown">
           <div class="breakdown-media">
             <!-- Görsel varsa     -->
-            <img src="{% static 'images/izometric1.jpeg' %}" alt="">
+            <img src="{% static 'images/card3.png' %}" alt="purevia admin panel">
             
 
             <!-- opsiyonel badge -->
@@ -121,12 +122,12 @@
 
         <article class="breakdown-card">
           <div class="breakdown-media">
-            <!-- Görsel varsa    <img src="{% static 'img/admin-panel.png' %}" alt=""> -->
-            
-            <div class="media-placeholder" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
-            </div>
-
+            <img src="{% static 'images/card4.png' %}" alt="purevia e-commerce flow">
+            <!--  
+              <div class="media-placeholder" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+              </div>
+            -->
             <!-- opsiyonel badge -->
             <span class="card-badge">{% trans "E-commerce" %}</span>
           </div>
@@ -152,12 +153,12 @@
 
         <article class="breakdown-card">
           <div class="breakdown-media">
-            <!-- Görsel varsa    <img src="{% static 'img/admin-panel.png' %}" alt=""> -->
-            
-            <div class="media-placeholder" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
-            </div>
-
+            <img src="{% static 'images/scree3.png' %}" alt="purevia user accounts and authentication">
+            <!-- 
+              <div class="media-placeholder" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+              </div>
+            -->
             <!-- opsiyonel badge -->
             <span class="card-badge">{% trans "User" %}</span>
           </div>
@@ -183,11 +184,12 @@
 
         <article class="breakdown-card">
           <div class="breakdown-media">
-            <!-- Görsel varsa    <img src="{% static 'img/admin-panel.png' %}" alt=""> -->
-            
-            <div class="media-placeholder" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
-            </div>
+            <img src="{% static 'images/setup1.png' %}" alt="purevia deployment and project setup">
+            <!-- 
+              <div class="media-placeholder" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+              </div>
+            -->
 
             <!-- opsiyonel badge -->
             <span class="card-badge">{% trans "Production Ready" %}</span>

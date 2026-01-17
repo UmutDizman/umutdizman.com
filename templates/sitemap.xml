@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME -->
+  <url>
+    <loc>{{ site_url }}/en/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}/tr/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>{{ site_url }}/en/services/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}/tr/services/</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- PROJECTS -->
+  <url>
+    <loc>{{ site_url }}/en/projects/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}/tr/projects/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>{{ site_url }}/en/about/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}/tr/about/</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- HIRE ME -->
+  <url>
+    <loc>{{ site_url }}/en/hire-me/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}/tr/hire-me/</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>{{ site_url }}/en/contact/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}/tr/contact/</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

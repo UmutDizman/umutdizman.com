@@ -3,6 +3,10 @@
 {% load i18n %}
 
 {% block title %}404 | Umut Dizman{% endblock %}
+{% block meta_description %}
+{% trans "The page you’re looking for could not be found." %}
+{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/error.css' %}">
 {% endblock %}

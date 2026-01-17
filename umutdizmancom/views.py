@@ -8,6 +8,7 @@ import threading
 from .tasks import send_inquiry_emails
 from .forms import InquiryForm
 import logging
+from django.template.loader import render_to_string
 # Create your views here.
 
 logger = logging.getLogger(__name__)
@@ -69,3 +70,18 @@ def error_404(request, exception=None):
 
 def error_500(request):
     return render(request, "500.html", status=500)
+
+
+
+def sitemap_view(request):
+    xml = render_to_string("sitemap.xml", {
+        "site_url": settings.SITE_URL.rstrip("/")
+    })
+    return HttpResponse(xml, content_type="application/xml")
+
+
+def robots_txt(request):
+    txt = render_to_string("robots.txt", {
+        "site_url": settings.SITE_URL.rstrip("/")
+    })
+    return HttpResponse(txt, content_type="text/plain")

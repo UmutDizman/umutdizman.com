@@ -2,6 +2,9 @@
 {% load i18n %}
 {% load static %}
 {% block title %}{% trans "Services" %} | Umut Dizman{% endblock %}
+{% block meta_description %}{% trans "Web development services including MVP websites, business sites, and custom solutions for growing companies." %}{% endblock %}
+
+
 
 {% block extra_css %}<link rel="stylesheet" href="{% static 'css/services.css' %}">{% endblock %}
 
@@ -22,7 +25,7 @@
 
     <div class="process-grid">
       <div class="process-step">
-        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm160-320h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80Z"/></svg></span></div>
+        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg></span></div>
         <h3>1. {% trans "Discovery" %}</h3>
         <p>{% blocktrans trimmed %}We discuss your goals, audience and requirements to define a clear roadmap.{% endblocktrans %} </p>
       </div>
@@ -38,7 +41,7 @@
         <p>{% blocktrans trimmed %}Clean, modern code for performance, SEO and scalability.{% endblocktrans %}</p>
       </div>
       <div class="process-step">
-        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m98-537 168-168q14-14 33-20t39-2l52 11q-54 64-85 116t-60 126L98-537Zm205 91q23-72 62.5-136T461-702q88-88 201-131.5T873-860q17 98-26 211T716-448q-55 55-120 95.5T459-289L303-446Zm276-120q23 23 56.5 23t56.5-23q23-23 23-56.5T692-679q-23-23-56.5-23T579-679q-23 23-23 56.5t23 56.5ZM551-85l-64-147q74-29 126.5-60T730-377l10 52q4 20-2 39.5T718-252L551-85ZM162-318q35-35 85-35.5t85 34.5q35 35 35 85t-35 85q-25 25-83.5 43T87-74q14-103 32-161t43-83Z"/></svg></span></div>
+        <div class="process-icon"><span class="process-mini-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="m226-559 78 33q14-28 29-54t33-52l-56-11-84 84Zm142 83 114 113q42-16 90-49t90-75q70-70 109.5-155.5T806-800q-72-5-158 34.5T492-656q-42 42-75 90t-49 90Zm178-65q-23-23-23-56.5t23-56.5q23-23 57-23t57 23q23 23 23 56.5T660-541q-23 23-57 23t-57-23Zm19 321 84-84-11-56q-26 18-52 32.5T532-299l33 79Zm313-653q19 121-23.5 235.5T708-419l20 99q4 20-2 39t-20 33L538-80l-84-197-171-171-197-84 167-168q14-14 33.5-20t39.5-2l99 20q104-104 218-147t235-24ZM157-321q35-35 85.5-35.5T328-322q35 35 34.5 85.5T327-151q-25 25-83.5 43T82-76q14-103 32-161.5t43-83.5Zm57 56q-10 10-20 36.5T180-175q27-4 53.5-13.5T270-208q12-12 13-29t-11-29q-12-12-29-11.5T214-265Z"/></svg></span></div>
         <h3>4. {% trans "Launch" %}</h3>
         <p>{% blocktrans trimmed %}Testing, deployment and handoff. Everything runs smoothly.{% endblocktrans %}</p>
       </div>

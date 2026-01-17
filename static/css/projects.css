@@ -153,7 +153,7 @@
 
 .fp-mini-title{
   margin: 0 0 .5rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.02em;
   color: #0f172a;
   font-size: 1.05rem;
@@ -322,17 +322,7 @@
 }
 
 /* görselin üstüne hafif overlay (isteğe bağlı ama çok iyi durur) */
-.breakdown-media::after{
-  content:"";
-  position:absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(255,255,255,0.00),
-    rgba(255,255,255,0.22)
-  );
-  pointer-events:none;
-}
+
 
 /* placeholder */
 .media-placeholder{
@@ -377,7 +367,7 @@
 .breakdown-title{
   margin: 0 0 .55rem;
   font-size: 1.25rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.02em;
   color: #0f172a;
 }
@@ -409,7 +399,7 @@
 
   background: rgba(17,24,39,.04);
   border: 1px solid rgba(17,24,39,.08);
-  color: rgba(17,24,39,.70);
+  color: var(--primary);
 }
 
 /* küçük “paket hissi” için hover’da tagleri hafif vur */

@@ -3,6 +3,11 @@
 {% load i18n %}
 
 {% block title %}500 | Umut Dizman{% endblock %}
+{% block meta_description %}
+{% trans "Something went wrong on our side. Please try again later." %}
+{% endblock %}
+
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/error.css' %}">
 {% endblock %}

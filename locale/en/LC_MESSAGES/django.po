@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 15:07+0300\n"
+"POT-Creation-Date: 2026-01-17 15:01+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,400 +26,419 @@ msgstr ""
 msgid "Turkish"
 msgstr ""
 
-#: .\templates\403.html:18
+#: .\templates\403.html:7
+msgid "You don’t have permission to access this page."
+msgstr ""
+
+#: .\templates\403.html:23
 msgid "403 Forbidden"
 msgstr ""
 
-#: .\templates\403.html:19
+#: .\templates\403.html:24
 msgid "Access Denied"
 msgstr ""
 
-#: .\templates\403.html:21
+#: .\templates\403.html:26
 msgid ""
 "You don’t have permission to access this page. If this seems wrong, feel "
 "free to contact me."
 msgstr ""
 
-#: .\templates\403.html:33 .\templates\404.html:30 .\templates\500.html:34
-#: .\templates\base.html:91 .\templates\index.html:5
+#: .\templates\403.html:38 .\templates\404.html:34 .\templates\500.html:39
+#: .\templates\base.html:117 .\templates\index.html:5
 msgid "Home"
 msgstr ""
 
-#: .\templates\403.html:34 .\templates\404.html:31 .\templates\500.html:35
+#: .\templates\403.html:39 .\templates\404.html:35 .\templates\500.html:40
 msgid ""
 "Start over from the beginning. Return to the home page to explore my "
 "services."
 msgstr ""
 
-#: .\templates\403.html:35 .\templates\404.html:32 .\templates\500.html:36
+#: .\templates\403.html:40 .\templates\404.html:36 .\templates\500.html:41
 msgid "Go Back to Home"
 msgstr ""
 
-#: .\templates\403.html:42 .\templates\404.html:37 .\templates\500.html:43
-#: .\templates\base.html:26 .\templates\base.html:92
+#: .\templates\403.html:47 .\templates\404.html:41 .\templates\500.html:48
+#: .\templates\base.html:52 .\templates\base.html:118
+#: .\templates\projects.html:6
 msgid "Projects"
 msgstr ""
 
-#: .\templates\403.html:43 .\templates\404.html:38 .\templates\500.html:44
+#: .\templates\403.html:48 .\templates\404.html:42 .\templates\500.html:49
 msgid "Explore my modern web applications and e-commerce solutions."
 msgstr ""
 
-#: .\templates\403.html:44 .\templates\404.html:39 .\templates\500.html:45
+#: .\templates\403.html:49 .\templates\404.html:43 .\templates\500.html:50
 msgid "View Portfolio"
 msgstr ""
 
-#: .\templates\403.html:51 .\templates\404.html:44 .\templates\500.html:52
+#: .\templates\403.html:56 .\templates\404.html:48 .\templates\500.html:57
 #: .\templates\hire_me.html:6
 msgid "Contact"
 msgstr ""
 
-#: .\templates\403.html:52 .\templates\404.html:45 .\templates\500.html:53
+#: .\templates\403.html:57 .\templates\404.html:49 .\templates\500.html:58
 msgid ""
 "If you couldn't find what you were looking for or have a project idea, reach "
 "out to me."
 msgstr ""
 
-#: .\templates\403.html:53 .\templates\404.html:46 .\templates\500.html:54
+#: .\templates\403.html:58 .\templates\404.html:50 .\templates\500.html:59
 msgid "Send a Message"
 msgstr ""
 
-#: .\templates\403.html:58 .\templates\404.html:51 .\templates\500.html:59
+#: .\templates\403.html:63 .\templates\404.html:55 .\templates\500.html:64
 msgid "Go back to the previous page"
 msgstr ""
 
-#: .\templates\404.html:18
+#: .\templates\404.html:7
+msgid "The page you’re looking for could not be found."
+msgstr ""
+
+#: .\templates\404.html:22
 msgid "404 ERROR"
 msgstr ""
 
-#: .\templates\404.html:19
+#: .\templates\404.html:23
 msgid "We couldn't find what you were looking for."
 msgstr ""
 
-#: .\templates\404.html:21
+#: .\templates\404.html:25
 msgid ""
 "Don’t worry — links sometimes change or pages move. Here are a few helpful "
 "links to get you back on track."
 msgstr ""
 
-#: .\templates\500.html:18
+#: .\templates\500.html:7
+msgid "Something went wrong on our side. Please try again later."
+msgstr ""
+
+#: .\templates\500.html:23
 msgid "500 Internal Server Error"
 msgstr ""
 
-#: .\templates\500.html:19
+#: .\templates\500.html:24
 msgid "Something went wrong on our end."
 msgstr ""
 
-#: .\templates\500.html:21
+#: .\templates\500.html:26
 msgid ""
 "Don’t worry — this isn’t your fault. We’re experiencing a technical issue, "
 "but you can continue using the site through the links below."
 msgstr ""
 
-#: .\templates\about.html:5 .\templates\base.html:27 .\templates\base.html:94
+#: .\templates\about.html:5 .\templates\base.html:53 .\templates\base.html:120
 msgid "About"
 msgstr ""
 
-#: .\templates\about.html:13
+#: .\templates\about.html:6
+msgid ""
+"Learn more about Umut Dizman, a freelance web developer focused on building "
+"practical and scalable web solutions."
+msgstr ""
+
+#: .\templates\about.html:16
 msgid "More Than Just"
 msgstr ""
 
-#: .\templates\about.html:13
+#: .\templates\about.html:16
 msgid "Code"
 msgstr ""
 
-#: .\templates\about.html:14
+#: .\templates\about.html:17
 msgid ""
 "I'm a strategic partner for founders and small businesses. I build digital "
 "products that are fast, accessible, and designed to grow with your vision."
 msgstr ""
 
-#: .\templates\about.html:17
+#: .\templates\about.html:20
 msgid "Get in Touch"
 msgstr ""
 
-#: .\templates\about.html:18
+#: .\templates\about.html:21
 msgid "View Work"
 msgstr ""
 
-#: .\templates\about.html:31
+#: .\templates\about.html:34
 msgid "Business-Focused Thinking"
 msgstr ""
 
-#: .\templates\about.html:32
+#: .\templates\about.html:35
 msgid ""
 "I don’t just write code. I think about your business goals and build "
 "solutions that support growth, conversion, and long-term success."
 msgstr ""
 
-#: .\templates\about.html:39
+#: .\templates\about.html:42
 msgid "Clean, Maintainable Code"
 msgstr ""
 
-#: .\templates\about.html:40
+#: .\templates\about.html:43
 msgid ""
 "I build clean, readable, and scalable code that’s easy to maintain — so your "
 "project doesn’t become a problem six months later."
 msgstr ""
 
-#: .\templates\about.html:47
+#: .\templates\about.html:50
 msgid "Clear Communication & Delivery"
 msgstr ""
 
-#: .\templates\about.html:48
+#: .\templates\about.html:51
 msgid ""
 "No middlemen, no confusion. You work directly with me, get regular updates, "
 "and always know where the project stands."
 msgstr ""
 
-#: .\templates\about.html:57
+#: .\templates\about.html:60
 msgid "Technical Approach"
 msgstr ""
 
-#: .\templates\about.html:58
+#: .\templates\about.html:61
 msgid "Modern tools, Simple systems."
 msgstr ""
 
-#: .\templates\about.html:61
+#: .\templates\about.html:64
 msgid ""
 "I don’t pick tech because it’s trendy. I choose tools that keep your site "
 "fast, secure, and easy to manage — without unnecessary complexity."
 msgstr ""
 
-#: .\templates\about.html:67
+#: .\templates\about.html:70
 msgid "Django-based, production-ready architecture"
 msgstr ""
 
-#: .\templates\about.html:68
+#: .\templates\about.html:71
 msgid "Fast pages + clean SEO fundamentals"
 msgstr ""
 
-#: .\templates\about.html:69
+#: .\templates\about.html:72
 msgid "Admin-managed content when you need it"
 msgstr ""
 
-#: .\templates\about.html:70
+#: .\templates\about.html:73
 msgid "Clear handoff: docs + short training"
 msgstr ""
 
-#: .\templates\about.html:78
+#: .\templates\about.html:81
 msgid "Backend & admin"
 msgstr ""
 
-#: .\templates\about.html:79
+#: .\templates\about.html:82
 msgid "Reliable database"
 msgstr ""
 
-#: .\templates\about.html:80
+#: .\templates\about.html:83
 msgid "Clean UI fast"
 msgstr ""
 
-#: .\templates\about.html:81
+#: .\templates\about.html:84
 msgid "Stable releases"
 msgstr ""
 
-#: .\templates\about.html:85
+#: .\templates\about.html:88
 msgid "\"The right tool for the right job.\""
 msgstr ""
 
-#: .\templates\about.html:94 .\templates\services.html:20
+#: .\templates\about.html:97 .\templates\services.html:23
 msgid "How I Work"
 msgstr ""
 
-#: .\templates\about.html:95 .\templates\services.html:21
+#: .\templates\about.html:98 .\templates\services.html:24
 msgid "Development Process"
 msgstr ""
 
-#: .\templates\about.html:100 .\templates\services.html:26
+#: .\templates\about.html:103 .\templates\services.html:29
 msgid "Discovery"
 msgstr ""
 
-#: .\templates\about.html:101 .\templates\services.html:27
+#: .\templates\about.html:104 .\templates\services.html:30
 msgid ""
 "We discuss your goals, audience and requirements to define a clear roadmap."
 msgstr ""
 
-#: .\templates\about.html:106 .\templates\services.html:32
+#: .\templates\about.html:109 .\templates\services.html:35
 msgid "Design & UX"
 msgstr ""
 
-#: .\templates\about.html:107 .\templates\services.html:33
+#: .\templates\about.html:110 .\templates\services.html:36
 msgid "Wireframes and focused on usability and conversion."
 msgstr ""
 
-#: .\templates\about.html:111 .\templates\services.html:37
+#: .\templates\about.html:114 .\templates\services.html:40
 msgid "Development"
 msgstr ""
 
-#: .\templates\about.html:112 .\templates\services.html:38
+#: .\templates\about.html:115 .\templates\services.html:41
 msgid "Clean, modern code for performance, SEO and scalability."
 msgstr ""
 
-#: .\templates\about.html:116 .\templates\services.html:42
+#: .\templates\about.html:119 .\templates\services.html:45
 msgid "Launch"
 msgstr ""
 
-#: .\templates\about.html:117 .\templates\services.html:43
+#: .\templates\about.html:120 .\templates\services.html:46
 msgid "Testing, deployment and handoff. Everything runs smoothly."
 msgstr ""
 
-#: .\templates\about.html:131
+#: .\templates\about.html:134
 msgid "Featured Case Study"
 msgstr ""
 
-#: .\templates\about.html:133
+#: .\templates\about.html:136
 msgid "Purevia E-commerce Demo"
 msgstr ""
 
-#: .\templates\about.html:136
+#: .\templates\about.html:139
 msgid ""
 "A complete overhaul of a legacy financial dashboard for a Series A startup. "
 "The focus was on simplifying complex data visualization and improving "
 "performance for daily active users."
 msgstr ""
 
-#: .\templates\about.html:145 .\templates\projects.html:42
+#: .\templates\about.html:148 .\templates\projects.html:43
 msgid "Admin Panel"
 msgstr ""
 
-#: .\templates\about.html:146
+#: .\templates\about.html:149
 msgid "Product & order management"
 msgstr ""
 
-#: .\templates\about.html:149 .\templates\projects.html:51
-#: .\templates\projects.html:136
+#: .\templates\about.html:152 .\templates\projects.html:52
+#: .\templates\projects.html:137
 msgid "E-commerce Flow"
 msgstr ""
 
-#: .\templates\about.html:150
+#: .\templates\about.html:153
 msgid "Cart, checkout & order history"
 msgstr ""
 
-#: .\templates\about.html:154 .\templates\projects.html:61
+#: .\templates\about.html:157 .\templates\projects.html:62
 msgid "View Case Study"
 msgstr ""
 
-#: .\templates\about.html:159 .\templates\projects.html:78
-msgid "Project Preview"
-msgstr ""
-
-#: .\templates\about.html:170
+#: .\templates\about.html:173
 msgid "Services & Packages"
 msgstr ""
 
-#: .\templates\about.html:171
+#: .\templates\about.html:174
 msgid "How I can help you"
 msgstr ""
 
-#: .\templates\about.html:172
+#: .\templates\about.html:175
 msgid "Flexible engagement models tailored to your stage of business."
 msgstr ""
 
-#: .\templates\about.html:179 .\templates\index.html:38
-#: .\templates\services.html:55 .\umutdizmancom\models.py:7
+#: .\templates\about.html:182 .\templates\index.html:41
+#: .\templates\services.html:58 .\umutdizmancom\models.py:7
 msgid "Starter"
 msgstr ""
 
-#: .\templates\about.html:183
+#: .\templates\about.html:186
 msgid "Perfect for MVP validation or personal portfolios."
 msgstr ""
 
-#: .\templates\about.html:186
+#: .\templates\about.html:189
 msgid "From $149"
 msgstr ""
 
-#: .\templates\about.html:192 .\templates\index.html:48
-#: .\templates\services.html:81 .\umutdizmancom\models.py:8
+#: .\templates\about.html:195 .\templates\index.html:59
+#: .\templates\services.html:84 .\umutdizmancom\models.py:8
 msgid "Business"
 msgstr ""
 
-#: .\templates\about.html:196
+#: .\templates\about.html:199
 msgid "For established companies needing a pro presence."
 msgstr ""
 
-#: .\templates\about.html:199
+#: .\templates\about.html:202
 msgid "From $299"
 msgstr ""
 
-#: .\templates\about.html:205 .\templates\index.html:58
-#: .\templates\services.html:104 .\umutdizmancom\models.py:9
+#: .\templates\about.html:208 .\templates\index.html:77
+#: .\templates\services.html:107 .\umutdizmancom\models.py:9
 msgid "Pro"
 msgstr ""
 
-#: .\templates\about.html:209
+#: .\templates\about.html:212
 msgid "Complex web apps and custom development needs."
 msgstr ""
 
-#: .\templates\about.html:212
+#: .\templates\about.html:215
 msgid "Custom Quote"
 msgstr ""
 
-#: .\templates\about.html:220
+#: .\templates\about.html:223
 msgid "Compare all packages"
 msgstr ""
 
-#: .\templates\about.html:230
+#: .\templates\about.html:235
 msgid "Ready to get started"
 msgstr ""
 
-#: .\templates\about.html:231
+#: .\templates\about.html:236
 msgid ""
 "I take on a limited number of projects each month. Let’s see if we’re a good "
 "fit."
 msgstr ""
 
-#: .\templates\about.html:234
+#: .\templates\about.html:239
 msgid "Book a Discovery Call"
 msgstr ""
 
-#: .\templates\about.html:236 .\templates\contact.html:74
-#: .\templates\hire_me.html:65
+#: .\templates\about.html:241 .\templates\contact.html:77
+#: .\templates\hire_me.html:67
 msgid "Email Me"
 msgstr ""
 
-#: .\templates\base.html:23
+#: .\templates\base.html:11 .\templates\base.html:18
+msgid "Freelance web developer building fast, reliable websites."
+msgstr ""
+
+#: .\templates\base.html:49
 msgid "Primary"
 msgstr ""
 
-#: .\templates\base.html:25 .\templates\base.html:93
-#: .\templates\projects.html:6 .\templates\services.html:4
+#: .\templates\base.html:51 .\templates\base.html:119
+#: .\templates\services.html:4
 msgid "Services"
 msgstr ""
 
-#: .\templates\base.html:33
+#: .\templates\base.html:59
 msgid "Language"
 msgstr ""
 
-#: .\templates\base.html:35
+#: .\templates\base.html:61
 msgid "Flag icon"
 msgstr ""
 
-#: .\templates\base.html:51
+#: .\templates\base.html:77
 msgid "Turkey flag"
 msgstr ""
 
-#: .\templates\base.html:58
+#: .\templates\base.html:84
 msgid "England flag"
 msgstr ""
 
-#: .\templates\base.html:66
+#: .\templates\base.html:92
 msgid "Hire Me"
 msgstr ""
 
-#: .\templates\base.html:82
+#: .\templates\base.html:108
 msgid ""
 "Freelance web developer building fast, reliable websites for small "
 "businesses and brands."
 msgstr ""
 
-#: .\templates\base.html:88
+#: .\templates\base.html:114
 msgid "Sitemap"
 msgstr ""
 
-#: .\templates\base.html:99
+#: .\templates\base.html:125
 msgid "Socials"
 msgstr ""
 
-#: .\templates\base.html:109
+#: .\templates\base.html:137
 msgid "All rights reserved."
 msgstr ""
 
@@ -427,44 +446,51 @@ msgstr ""
 msgid "Contact Me"
 msgstr ""
 
-#: .\templates\contact.html:15
+#: .\templates\contact.html:6
+msgid ""
+"Get in touch to discuss your project idea, ask questions, or start working "
+"together on your website."
+msgstr ""
+
+#: .\templates\contact.html:18
 msgid "clarify"
 msgstr ""
 
-#: .\templates\contact.html:15
+#: .\templates\contact.html:18
 #, python-format
 msgid "Let’s <span class=\"accent\">%(accent)s</span> your idea."
 msgstr ""
 
-#: .\templates\contact.html:21
+#: .\templates\contact.html:24
 msgid "Tell me what you’re thinking — I’ll help you figure out the next step."
 msgstr ""
 
-#: .\templates\contact.html:38
+#: .\templates\contact.html:41 .\umutdizmancom\tasks.py:113
 msgid "Name"
 msgstr ""
 
-#: .\templates\contact.html:44
+#: .\templates\contact.html:47 .\umutdizmancom\tasks.py:114
 msgid "Email"
 msgstr ""
 
-#: .\templates\contact.html:50
+#: .\templates\contact.html:53
 msgid "Phone (optional)"
 msgstr ""
 
-#: .\templates\contact.html:55
+#: .\templates\contact.html:58 .\umutdizmancom\tasks.py:116
+#: .\umutdizmancom\tasks.py:142 .\umutdizmancom\tasks.py:150
 msgid "Package"
 msgstr ""
 
-#: .\templates\contact.html:67
+#: .\templates\contact.html:70 .\umutdizmancom\tasks.py:117
 msgid "Message"
 msgstr ""
 
-#: .\templates\contact.html:72
+#: .\templates\contact.html:75
 msgid "Start Project"
 msgstr ""
 
-#: .\templates\contact.html:79
+#: .\templates\contact.html:82
 msgid "I usually reply within 24 hours to see if it’s a good fit."
 msgstr ""
 
@@ -472,530 +498,635 @@ msgstr ""
 msgid "Contact Success"
 msgstr ""
 
-#: .\templates\contact_success.html:12
-msgid "Message Sent Successfully!"
+#: .\templates\contact_success.html:6
+msgid ""
+"Your message has been sent successfully. I’ll review it and get back to you "
+"within 24 hours."
 msgstr ""
 
-#: .\templates\contact_success.html:14
+#: .\templates\contact_success.html:16
+msgid "Message Sent"
+msgstr ""
+
+#: .\templates\contact_success.html:16
+msgid "Successfully!"
+msgstr ""
+
+#: .\templates\contact_success.html:20
 msgid "I've received your message and will get back to you within 24 hours."
 msgstr ""
 
-#: .\templates\contact_success.html:18
+#: .\templates\contact_success.html:26
 msgid "Go Home"
 msgstr ""
 
-#: .\templates\hire_me.html:16
+#: .\templates\contact_success.html:27 .\templates\index.html:19
+msgid "View Projects"
+msgstr ""
+
+#: .\templates\hire_me.html:7
+msgid ""
+"Hire a freelance web developer to build or improve your website with a clear "
+"process and fast delivery."
+msgstr ""
+
+#: .\templates\hire_me.html:18
 msgid "project?"
 msgstr ""
 
-#: .\templates\hire_me.html:16
+#: .\templates\hire_me.html:18
 #, python-format
 msgid "Planning a <span class=\"accent\">%(accent_word)s</span> Let’s talk."
 msgstr ""
 
-#: .\templates\hire_me.html:21
+#: .\templates\hire_me.html:23
 msgid ""
 "A short conversation to clarify scope, timeline, and the right approach."
 msgstr ""
 
-#: .\templates\hire_me.html:33
+#: .\templates\hire_me.html:35
 msgid "Direct communication"
 msgstr ""
 
-#: .\templates\hire_me.html:34
+#: .\templates\hire_me.html:36
 msgid "No agencies, no middlemen. You work directly with the developer."
 msgstr ""
 
-#: .\templates\hire_me.html:43
+#: .\templates\hire_me.html:45
 msgid "Quick fit check"
 msgstr ""
 
-#: .\templates\hire_me.html:44
+#: .\templates\hire_me.html:46
 msgid "Not a sales call — just a short scope and fit review."
 msgstr ""
 
-#: .\templates\hire_me.html:53
+#: .\templates\hire_me.html:55
 msgid "Clear scope, no surprises"
 msgstr ""
 
-#: .\templates\hire_me.html:54
+#: .\templates\hire_me.html:56
 msgid "What we agree on upfront is what gets delivered."
 msgstr ""
 
-#: .\templates\hire_me.html:61 .\templates\projects.html:273
+#: .\templates\hire_me.html:63 .\templates\projects.html:275
 msgid "Start a Project"
 msgstr ""
 
-#: .\templates\hire_me.html:69
+#: .\templates\hire_me.html:71
 msgid ""
 "\"This is not a sales call. We’re simply checking whether your project is a "
 "good fit.\""
 msgstr ""
 
-#: .\templates\index.html:12
+#: .\templates\index.html:13
 msgid ""
 "I build <span class=\"text-acent\">reliable and fast </span>web solutions "
 "for founders."
 msgstr ""
 
-#: .\templates\index.html:13
+#: .\templates\index.html:14
 msgid ""
 "Custom business and portfolio websites with design, development, SSL setup "
 "and secure deployment - all in one place."
 msgstr ""
 
-#: .\templates\index.html:16
+#: .\templates\index.html:18 .\umutdizmancom\tasks.py:153
 msgid "View Services"
 msgstr ""
 
-#: .\templates\index.html:17
-msgid "View Projects"
-msgstr ""
-
-#: .\templates\index.html:20
+#: .\templates\index.html:21
 msgid "Django · Design · SSL · Deployment · Admin Panel"
 msgstr ""
 
-#: .\templates\index.html:25 .\templates\index.html:84
+#: .\templates\index.html:27 .\templates\index.html:157
 msgid "Website preview"
 msgstr ""
 
-#: .\templates\index.html:32
+#: .\templates\index.html:34
 msgid "Websites built to grow your business"
 msgstr ""
 
-#: .\templates\index.html:33
+#: .\templates\index.html:35
 msgid ""
 "From simple landing pages to full business websites—designed, built, and "
 "deployed."
 msgstr ""
 
-#: .\templates\index.html:39
+#: .\templates\index.html:44
 msgid ""
 "A fast and clean website to get your business online. Up to 4 pages, "
 "responsive design, basic SEO, SSL, and deployment."
 msgstr ""
 
-#: .\templates\index.html:40 .\templates\index.html:60
-msgid "See details →"
+#: .\templates\index.html:46 .\templates\index.html:64
+#: .\templates\index.html:83
+msgid "See details"
 msgstr ""
 
-#: .\templates\index.html:43
-msgid "Best for getting online fast"
+#: .\templates\index.html:48
+msgid "Responsive design"
 msgstr ""
 
 #: .\templates\index.html:49
+msgid "Basic SEO"
+msgstr ""
+
+#: .\templates\index.html:50 .\templates\services.html:73
+msgid "SSL + deployment"
+msgstr ""
+
+#: .\templates\index.html:51
+msgid "Contact form"
+msgstr ""
+
+#: .\templates\index.html:60
+msgid "Popular"
+msgstr ""
+
+#: .\templates\index.html:62
 msgid ""
 "A complete business website built to attract and convert customers. "
 "Designed, built, and deployed from start to finish."
 msgstr ""
 
-#: .\templates\index.html:50
-msgid "Most popular →"
+#: .\templates\index.html:66
+msgid "Custom sections (services/portfolio)"
 msgstr ""
 
-#: .\templates\index.html:53
-msgid "Best for businesses that want more leads"
+#: .\templates\index.html:67
+msgid "Lead-focused contact flow"
 msgstr ""
 
-#: .\templates\index.html:59
+#: .\templates\index.html:68
+msgid "Admin panel (optional)"
+msgstr ""
+
+#: .\templates\index.html:69
+msgid "Analytics setup"
+msgstr ""
+
+#: .\templates\index.html:81
 msgid ""
 "A fully custom website for brands that need something unique. Custom design, "
 "extended pages, and tailored features."
 msgstr ""
 
-#: .\templates\index.html:63
-msgid "Best for custom design and unique needs"
+#: .\templates\index.html:85
+msgid "Custom features (booking/payment)"
 msgstr ""
 
-#: .\templates\index.html:74
+#: .\templates\index.html:86
+msgid "Integrations (APIs)"
+msgstr ""
+
+#: .\templates\index.html:87
+msgid "Performance & SEO pass"
+msgstr ""
+
+#: .\templates\index.html:88
+msgid "Maintenance option"
+msgstr ""
+
+#: .\templates\index.html:102
 msgid "Selected project"
 msgstr ""
 
-#: .\templates\index.html:78
-msgid "Purevia - E-commerce demo"
+#: .\templates\index.html:103
+msgid "A closer look at how I tackle real-world problems."
 msgstr ""
 
-#: .\templates\index.html:79
+#: .\templates\index.html:108
+msgid "CASE STUDY"
+msgstr ""
+
+#: .\templates\index.html:112
+msgid "Purevia — E-commerce demo"
+msgstr ""
+
+#: .\templates\index.html:113
 msgid ""
 "A real-world e-commerce website designed to demonstrate how online stores "
 "actually work. Product listings, cart flow, admin panel, and secure "
 "production deployment included."
 msgstr ""
 
-#: .\templates\index.html:80
+#: .\templates\index.html:119
+msgid "E-commerce flow"
+msgstr ""
+
+#: .\templates\index.html:120
+msgid "Cart & checkout"
+msgstr ""
+
+#: .\templates\index.html:127
+msgid "Admin panel"
+msgstr ""
+
+#: .\templates\index.html:128
+msgid "Inventory control"
+msgstr ""
+
+#: .\templates\index.html:135
+msgid "Performance"
+msgstr ""
+
+#: .\templates\index.html:136
+msgid "Fast pages"
+msgstr ""
+
+#: .\templates\index.html:143
+msgid "Secure setup"
+msgstr ""
+
+#: .\templates\index.html:144
+msgid "SSL + deploy"
+msgstr ""
+
+#: .\templates\index.html:151
 msgid "View full case study"
 msgstr ""
 
-#: .\templates\projects.html:15
+#: .\templates\projects.html:7
+msgid ""
+"Selected web projects showcasing business websites, admin panels, and e-"
+"commerce solutions built with Django."
+msgstr ""
+
+#: .\templates\projects.html:16
 msgid "Featured "
 msgstr ""
 
-#: .\templates\projects.html:15
+#: .\templates\projects.html:16
 msgid "Project"
 msgstr ""
 
-#: .\templates\projects.html:17
+#: .\templates\projects.html:18
 msgid ""
 "Real-world web projects built for founders and small businesses. Designed "
 "for performance, clarity, and real business needs."
 msgstr ""
 
-#: .\templates\projects.html:30
+#: .\templates\projects.html:31
 msgid "Featured Project"
 msgstr ""
 
-#: .\templates\projects.html:31
+#: .\templates\projects.html:32
 msgid "E-commerce Demo"
 msgstr ""
 
-#: .\templates\projects.html:34
+#: .\templates\projects.html:35
 msgid ""
 "A real-world e-commerce demo project with admin management and end-to-end "
 "shopping flow. Built to showcase production-ready architecture and clean UX."
 msgstr ""
 
-#: .\templates\projects.html:44
+#: .\templates\projects.html:45
 msgid "Product, category, and order management from a single dashboard."
 msgstr ""
 
-#: .\templates\projects.html:53
+#: .\templates\projects.html:54
 msgid "Cart, checkout validation, order tracking, and order history."
 msgstr ""
 
-#: .\templates\projects.html:69
+#: .\templates\projects.html:70
 msgid "Purevia preview"
 msgstr ""
 
-#: .\templates\projects.html:100
+#: .\templates\projects.html:79
+msgid "Project Preview"
+msgstr ""
+
+#: .\templates\projects.html:101
 msgid "Core Module"
 msgstr ""
 
-#: .\templates\projects.html:105
+#: .\templates\projects.html:106
 msgid "Admin Panel & Product Management"
 msgstr ""
 
-#: .\templates\projects.html:109
+#: .\templates\projects.html:110
 msgid ""
 "Products, categories, pricing, and orders are managed from a single, clean "
 "admin dashboard. Built to support real business workflows without "
 "unnecessary complexity."
 msgstr ""
 
-#: .\templates\projects.html:116
+#: .\templates\projects.html:117
 msgid "Products"
 msgstr ""
 
-#: .\templates\projects.html:117
+#: .\templates\projects.html:118
 msgid "Orders"
 msgstr ""
 
-#: .\templates\projects.html:131
+#: .\templates\projects.html:132
 msgid "E-commerce"
 msgstr ""
 
-#: .\templates\projects.html:140
+#: .\templates\projects.html:141
 msgid ""
 "End-to-end shopping experience including cart, checkout validation, and "
 "order history. Designed for clarity, speed, and conversion-focused user "
 "journeys."
 msgstr ""
 
-#: .\templates\projects.html:147
+#: .\templates\projects.html:148
 msgid "Cart & Checkout"
 msgstr ""
 
-#: .\templates\projects.html:148
+#: .\templates\projects.html:149
 msgid "Order History"
 msgstr ""
 
-#: .\templates\projects.html:162
+#: .\templates\projects.html:163
 msgid "User"
 msgstr ""
 
-#: .\templates\projects.html:167
+#: .\templates\projects.html:168
 msgid "User Accounts & Authentication"
 msgstr ""
 
-#: .\templates\projects.html:171
+#: .\templates\projects.html:172
 msgid ""
 "Secure user registration, login, and account management system. Includes "
 "protected routes and role-based access for customers and admins."
 msgstr ""
 
-#: .\templates\projects.html:178
+#: .\templates\projects.html:179
 msgid "Authentication"
 msgstr ""
 
-#: .\templates\projects.html:179
+#: .\templates\projects.html:180
 msgid "Access Control"
 msgstr ""
 
-#: .\templates\projects.html:193
+#: .\templates\projects.html:195
 msgid "Production Ready"
 msgstr ""
 
-#: .\templates\projects.html:198
+#: .\templates\projects.html:200
 msgid "Deployment & Project Setup"
 msgstr ""
 
-#: .\templates\projects.html:202
+#: .\templates\projects.html:204
 msgid ""
 "Configured for a clean production setup with environment variables, database "
 "migrations, and a deployment-friendly structure. Built to ship reliably and "
 "maintain easily."
 msgstr ""
 
-#: .\templates\projects.html:209
+#: .\templates\projects.html:211
 msgid "Env & Config"
 msgstr ""
 
-#: .\templates\projects.html:210
+#: .\templates\projects.html:212
 msgid "Deploy / CI"
 msgstr ""
 
-#: .\templates\projects.html:222
+#: .\templates\projects.html:224
 msgid "What You Get Every Project"
 msgstr ""
 
-#: .\templates\projects.html:223
+#: .\templates\projects.html:225
 msgid "A clear delivery standard—no surprises."
 msgstr ""
 
-#: .\templates\projects.html:231
+#: .\templates\projects.html:233
 msgid "Clean Code"
 msgstr ""
 
-#: .\templates\projects.html:232
+#: .\templates\projects.html:234
 msgid "Maintainable, scalable, and built with modern standards."
 msgstr ""
 
-#: .\templates\projects.html:239
+#: .\templates\projects.html:241
 msgid "Fast Performance"
 msgstr ""
 
-#: .\templates\projects.html:240
+#: .\templates\projects.html:242
 msgid "Optimized for speed, SEO, and Core Web Vitals."
 msgstr ""
 
-#: .\templates\projects.html:247
+#: .\templates\projects.html:249
 #, python-format
 msgid "100%% Ownership"
 msgstr ""
 
-#: .\templates\projects.html:248
+#: .\templates\projects.html:250
 msgid "You own the code, design assets, and intellectual property."
 msgstr ""
 
-#: .\templates\projects.html:255
+#: .\templates\projects.html:257
 msgid "Post-Launch Support"
 msgstr ""
 
-#: .\templates\projects.html:256
+#: .\templates\projects.html:258
 msgid "I’m here after launch for bugs, fixes, and questions."
 msgstr ""
 
-#: .\templates\projects.html:266
+#: .\templates\projects.html:268
 msgid "Have a project in mind?"
 msgstr ""
 
-#: .\templates\projects.html:268
+#: .\templates\projects.html:270
 msgid ""
 "Whether it's a simple landing page or a complex web application, I can help "
 "bring your vision to life."
 msgstr ""
 
-#: .\templates\projects.html:274
+#: .\templates\projects.html:276
 msgid "View Pricing"
 msgstr ""
 
-#: .\templates\services.html:12
+#: .\templates\services.html:5
+msgid ""
+"Web development services including MVP websites, business sites, and custom "
+"solutions for growing companies."
+msgstr ""
+
+#: .\templates\services.html:15
 msgid "Clear, Transparent "
 msgstr ""
 
-#: .\templates\services.html:12
+#: .\templates\services.html:15
 msgid "Packages"
 msgstr ""
 
-#: .\templates\services.html:13
+#: .\templates\services.html:16
 msgid ""
 "Straightforward packages for founders and small businesses. From simple MVPs "
 "to scalable web solutions, built without agency bloat."
 msgstr ""
 
-#: .\templates\services.html:56
+#: .\templates\services.html:59
 msgid ""
 "Fast, clean website for small businesses to get online and start receiving "
 "inquiries."
 msgstr ""
 
-#: .\templates\services.html:57
+#: .\templates\services.html:60
 msgid "Starting at $149"
 msgstr ""
 
-#: .\templates\services.html:60
+#: .\templates\services.html:63
 msgid "Select Starter"
 msgstr ""
 
-#: .\templates\services.html:63
+#: .\templates\services.html:66
 msgid "What's included"
 msgstr ""
 
-#: .\templates\services.html:65
+#: .\templates\services.html:68
 msgid "Up to 4 pages"
 msgstr ""
 
-#: .\templates\services.html:66
+#: .\templates\services.html:69
 msgid "Mobile-first design"
 msgstr ""
 
-#: .\templates\services.html:67
+#: .\templates\services.html:70
 msgid "Contact form + WatsApp Button"
 msgstr ""
 
-#: .\templates\services.html:68
+#: .\templates\services.html:71
 msgid "Google Maps embed"
 msgstr ""
 
-#: .\templates\services.html:69
+#: .\templates\services.html:72
 msgid "Basic SEO + sitemap"
 msgstr ""
 
-#: .\templates\services.html:70
-msgid "SSL + deployment"
-msgstr ""
-
-#: .\templates\services.html:71
+#: .\templates\services.html:74
 msgid "1 revision round"
 msgstr ""
 
-#: .\templates\services.html:72
+#: .\templates\services.html:75
 msgid "5-7 days delivery"
 msgstr ""
 
-#: .\templates\services.html:78
+#: .\templates\services.html:81
 msgid "Most popular"
 msgstr ""
 
-#: .\templates\services.html:82
+#: .\templates\services.html:85
 msgid ""
 "A complete brand website with lead-focused sections and admin-managed "
 "content."
 msgstr ""
 
-#: .\templates\services.html:83
+#: .\templates\services.html:86
 msgid "Starting at $299"
 msgstr ""
 
-#: .\templates\services.html:86
+#: .\templates\services.html:89
 msgid "Select Business"
 msgstr ""
 
-#: .\templates\services.html:89
+#: .\templates\services.html:92
 msgid "Everything in Starter, plus:"
 msgstr ""
 
-#: .\templates\services.html:91
+#: .\templates\services.html:94
 msgid "Up to 8 pages"
 msgstr ""
 
-#: .\templates\services.html:92
+#: .\templates\services.html:95
 msgid "Lead-focused section + forms"
 msgstr ""
 
-#: .\templates\services.html:93
+#: .\templates\services.html:96
 msgid "Blog/updates (Admin manageable)"
 msgstr ""
 
-#: .\templates\services.html:94
+#: .\templates\services.html:97
 msgid "Advanced SEO basics"
 msgstr ""
 
-#: .\templates\services.html:95
+#: .\templates\services.html:98
 msgid "Performance pass + image optimization"
 msgstr ""
 
-#: .\templates\services.html:96
+#: .\templates\services.html:99
 msgid "2 revision round"
 msgstr ""
 
-#: .\templates\services.html:97
+#: .\templates\services.html:100
 msgid "10-12 days delivery"
 msgstr ""
 
-#: .\templates\services.html:105
+#: .\templates\services.html:108
 msgid "Complex web applications with custom functionality."
 msgstr ""
 
-#: .\templates\services.html:106
+#: .\templates\services.html:109
 msgid "Custom"
 msgstr ""
 
-#: .\templates\services.html:109
+#: .\templates\services.html:112
 msgid "Contact for quote"
 msgstr ""
 
-#: .\templates\services.html:112
+#: .\templates\services.html:115
 msgid "Custom solutions for:"
 msgstr ""
 
-#: .\templates\services.html:114
+#: .\templates\services.html:117
 msgid "Custom web system (not just pages)"
 msgstr ""
 
-#: .\templates\services.html:115
+#: .\templates\services.html:118
 msgid "Admin panel + workflows"
 msgstr ""
 
-#: .\templates\services.html:116
+#: .\templates\services.html:119
 msgid "Auth & profiles"
 msgstr ""
 
-#: .\templates\services.html:117
+#: .\templates\services.html:120
 msgid "DB design"
 msgstr ""
 
-#: .\templates\services.html:118
+#: .\templates\services.html:121
 msgid "Integrations (payments/APIs)"
 msgstr ""
 
-#: .\templates\services.html:119
+#: .\templates\services.html:122
 msgid "Scalable architecture"
 msgstr ""
 
-#: .\templates\services.html:120
+#: .\templates\services.html:123
 msgid "Milestone-based delivery"
 msgstr ""
 
-#: .\templates\services.html:121
+#: .\templates\services.html:124
 msgid "Custom quote"
 msgstr ""
 
-#: .\templates\services.html:129
+#: .\templates\services.html:132
 msgid "Need something different?"
 msgstr ""
 
-#: .\templates\services.html:130
+#: .\templates\services.html:133
 msgid "Not sure which package fits? I can propose a custom scope and quote."
 msgstr ""
 
-#: .\templates\services.html:131
+#: .\templates\services.html:134
 msgid "Contact me for a custom quote"
 msgstr ""
 
-#: .\templates\services.html:140
+#: .\templates\services.html:143
 msgid "Common Questions"
 msgstr ""
 
-#: .\templates\services.html:141
+#: .\templates\services.html:144
 msgid "Everything you need to know about working with me."
 msgstr ""
 
-#: .\templates\services.html:145
+#: .\templates\services.html:148
 msgid "How do payments work?"
 msgstr ""
 
-#: .\templates\services.html:146
+#: .\templates\services.html:149
 #, python-format
 msgid ""
 "I work with clear, upfront pricing. Most projects start with a 50%% deposit, "
@@ -1003,73 +1134,73 @@ msgid ""
 "custom projects, milestone-based payments can be arranged."
 msgstr ""
 
-#: .\templates\services.html:149
+#: .\templates\services.html:152
 msgid "How long does a project take?"
 msgstr ""
 
-#: .\templates\services.html:150
+#: .\templates\services.html:153
 msgid ""
 "Starter websites usually take 5–7 days. Business projects take around 10–14 "
 "days, depending on scope and how quickly feedback and content are provided."
 msgstr ""
 
-#: .\templates\services.html:153
+#: .\templates\services.html:156
 msgid "What happens after the site is launched?"
 msgstr ""
 
-#: .\templates\services.html:154
+#: .\templates\services.html:157
 msgid ""
 "After launch, I provide a short support period to fix any issues. You can "
 "then either continue with maintenance support or fully manage the site "
 "yourself—I hand everything over cleanly."
 msgstr ""
 
-#: .\templates\services.html:157
+#: .\templates\services.html:160
 msgid "Do you provide the content?"
 msgstr ""
 
-#: .\templates\services.html:158
+#: .\templates\services.html:161
 msgid ""
 "Content is usually provided by the client. However, I help structure the "
 "pages and guide you on what content is needed to make the site effective."
 msgstr ""
 
-#: .\templates\services.html:161
+#: .\templates\services.html:164
 msgid "What kind of websites do you build?"
 msgstr ""
 
-#: .\templates\services.html:162
+#: .\templates\services.html:165
 msgid ""
 "I build business websites, landing pages, and custom web systems. From "
 "simple informational sites to admin-managed platforms, everything is built "
 "to be fast, secure, and scalable."
 msgstr ""
 
-#: .\templates\services.html:165
+#: .\templates\services.html:168
 msgid "Do I own the website and code?"
 msgstr ""
 
-#: .\templates\services.html:166
+#: .\templates\services.html:169
 msgid ""
 "Yes. Once the project is completed and paid for, you own the website, code, "
 "and assets entirely. No subscriptions, no lock-in."
 msgstr ""
 
-#: .\templates\services.html:175
+#: .\templates\services.html:178
 msgid "Ready to start your project?"
 msgstr ""
 
-#: .\templates\services.html:177
+#: .\templates\services.html:180
 msgid ""
 "If you have a project in mind, let’s have a short call to see if we’re a "
 "good fit."
 msgstr ""
 
-#: .\templates\services.html:183
+#: .\templates\services.html:186
 msgid "Book a discovery call"
 msgstr ""
 
-#: .\templates\services.html:186
+#: .\templates\services.html:189
 msgid "Email me"
 msgstr ""
 
@@ -1077,18 +1208,66 @@ msgstr ""
 msgid "Not sure yet"
 msgstr ""
 
-#: .\umutdizmancom\tasks.py:33
+#: .\umutdizmancom\tasks.py:46
+msgid "If you didn’t request this, you can ignore this email."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:110
+msgid "New project inquiry"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:111
+msgid "You received a new inquiry. Summary:"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:115
+msgid "Phone"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:119
+msgid "Open Admin"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:121
+msgid "Tip: reply quickly to improve conversion."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:138
 msgid "Got it — I’ll get back to you shortly"
 msgstr ""
 
-#: .\umutdizmancom\tasks.py:35
+#: .\umutdizmancom\tasks.py:141
 msgid ""
 "Thanks for reaching out. I’ve received your message and I’ll reply within 24 "
 "hours.\n"
 "\n"
-"Summary:\n"
 msgstr ""
 
-#: .\umutdizmancom\views.py:51
+#: .\umutdizmancom\tasks.py:143
+msgid "Your message"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:147
+msgid "Message received ✅"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:148
+msgid ""
+"Thanks for reaching out. I’ll review your message and reply within 24 hours."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:151
+msgid "Next step"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:151
+msgid "I’ll respond with timeline + questions (if needed)."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:155
+msgid "If you have extra details, reply to this email."
+msgstr ""
+
+#: .\umutdizmancom\views.py:52
 msgid "Thanks! Your message has been sent."
 msgstr ""

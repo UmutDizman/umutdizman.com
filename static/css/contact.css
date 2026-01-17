@@ -215,3 +215,58 @@
 @media (max-width: 520px){
   .btn-area{ flex-direction: column; }
 }
+
+/* ================= CONTACT SUCCESS ================= */
+.contact-success{
+  background: var(--bg);
+  min-height: 67vh;              /* footer için nefes */
+  display: flex;                 /* dikey ortalama */
+  align-items: center;
+  padding: 5.5rem 0 6.5rem;
+}
+
+.contact-success .container{
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.success-card{
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;                    /* card değil, sade */
+}
+
+.success-title{
+  margin: 0 0 .75rem;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  color: var(--text);
+}
+
+.success-title .accent{
+  color: var(--primary);         /* Successfully! mavi */
+}
+
+.success-desc{
+  margin: 0 auto 1.75rem;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 60ch;
+  font-size: 1.05rem;
+}
+
+.success-actions{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 520px){
+  .success-actions{ flex-direction: column; }
+  .success-actions .btn{ width: 100%; }
+}

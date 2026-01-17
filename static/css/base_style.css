@@ -53,7 +53,7 @@ img {
   align-items:center;
   justify-content:space-between;
   gap:16px;
-  padding: 5px 0;
+  padding: 3px 0;
 }
 
 .nav-brand{
@@ -66,15 +66,15 @@ img {
 }
 
 .brand-badge{
-  width: 2.3rem;
-  height: 2.3rem;
+  width: 2rem;
+  height: 2rem;
   display:inline-flex;
   align-items:center;
   justify-content:center;
   border-radius: 6px;
   background: #2563eb;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 12px;
   box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
 }
@@ -83,10 +83,11 @@ img {
   width: 20px;
   height: 20px;
   display: block;
+  font-weight: 800;
 }
 
 .brand-text{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -106,15 +107,21 @@ img {
 }
 
 .nav-link{
-  font-size: 14px;
-  color: rgba(17, 24, 39, 0.85);
-  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 8px 12px;
   border-radius: 10px;
+  transition: all .35s ease;
 }
 
 .nav-link:hover{
-  background: rgba(17, 24, 39, 0.04);
-  color: rgba(17, 24, 39, 1);
+  color: var(--primary);
+}
+/* aktif sayfa */
+.nav-link.is-active{
+  color: rgba(37, 99, 235, 1);
+  font-weight: 600;
 }
 
 .nav-actions{
@@ -124,9 +131,6 @@ img {
   flex: 0 0 auto;
 }
 
-.nav-cta{
-  border-radius: 14px; /* senin istediğin uyum */
-}
 
 /* Dil butonu (şimdilik basit) */
 .lang{ position: relative; }
@@ -145,6 +149,7 @@ img {
   color: rgba(17,24,39,.86);
 
   list-style:none;
+  transition: all .25s ease;
 }
 .lang-btn::-webkit-details-marker{ display:none; }
 
@@ -223,6 +228,7 @@ img {
   cursor: pointer;
   font: inherit;
   color: rgba(17,24,39,.92);
+  transition: all .25s ease;
 }
 
 .lang-item:hover{
@@ -236,27 +242,6 @@ img {
   letter-spacing: .03em;
 }
 
-
-.nav-inner{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:16px;
-}
-
-.nav-links{
-  display:flex;
-  gap:18px;
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-
-.nav-actions{
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
 
 .nav-cta{
   border-radius:14px; /* card/button ile aynı dil */
@@ -395,7 +380,7 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.05rem;
   margin-bottom: 12px;
 }
@@ -459,5 +444,49 @@ img {
 .footer-bottom a{
   color: rgba(17,24,39,.92);
   font-weight: 600;
+}
+
+/* =================== NAVBAR RESPONSIVE (MVP) =================== */
+@media (max-width: 899px){
+
+  /* orta linkleri kapat */
+  .nav { display: none; }                 /* nav komple kapatır */
+  /* alternatif: sadece listeyi kapatmak istersen: .nav-links{display:none;} */
+
+  /* header padding küçült */
+  .nav-inner{
+    padding: 10px 0;                      /* 5px çok sıkışık */
+    gap: 10px;
+  }
+
+  /* logo biraz küçülsün */
+  .brand-badge{
+    width: 2.05rem;
+    height: 2.05rem;
+    border-radius: 8px;
+  }
+  .brand-icon{ width: 18px; height: 18px; }
+  .brand-text{ font-size: 15px; }
+
+  /* sağ aksiyonları toparla */
+  .nav-actions{ gap: 8px; }
+
+  /* dil butonu daralsın */
+  .lang-btn{
+    height: 36px;
+    padding: 0 8px;
+    gap: 8px;
+  }
+  .flag-circle{ width: 20px; height: 20px; }
+  .lang-sep{ display:none; }              /* mobile’da gereksiz */
+
+  /* Hire Me butonu küçült */
+  .nav-actions .btn{
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .92rem;
+    border-radius: 12px;
+  }
 }
 

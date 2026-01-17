@@ -3,6 +3,11 @@
 {% load i18n %}
 
 {% block title %}403 | Umut Dizman{% endblock %}
+{% block meta_description %}
+{% trans "You don’t have permission to access this page." %}
+{% endblock %}
+
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/error.css' %}">
 {% endblock %}

@@ -27,9 +27,10 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "dev-only-insecure-key")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("DJANGO_DEBUG", "1") == "1"
+DEBUG = os.environ.get("DJANGO_DEBUG", "0") == "1"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "").split(",")
+ALLOWED_HOSTS = [h.strip() for h in ALLOWED_HOSTS if h.strip()]
 
 
 # Application definition
@@ -143,7 +144,9 @@ MEDIA_ROOT = BASE_DIR / "media"
 # Email (MVP)
 DEFAULT_FROM_EMAIL = "Umut Dizman <no-reply@localhost>"
 CONTACT_NOTIFY_EMAIL = "umutd.zman@gmail.com"
-SITE_URL = "http://127.0.0.1:8000"
+
+SITE_NAME = os.environ.get("SITE_NAME", "Umut Dizman")
+SITE_URL = os.environ.get("SITE_URL", "http://127.0.0.1:8000")
 
 EMAIL_BACKEND = os.environ.get(
     "EMAIL_BACKEND",
@@ -159,5 +162,20 @@ EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "")
 DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL", "Umut Dizman <no-reply@localhost>")
 CONTACT_NOTIFY_EMAIL = os.environ.get("CONTACT_NOTIFY_EMAIL", "umutd.zman@gmail.com")
 SITE_URL = os.environ.get("SITE_URL", "http://127.0.0.1:8000")
+
+
+EMAIL_HEADER_IMAGE_PATH = os.environ.get(
+    "EMAIL_HEADER_IMAGE_PATH",
+    "/static/images/logo1.png"  # 640x150
+)
+
+
+CSRF_TRUSTED_ORIGINS = os.environ.get("DJANGO_CSRF_TRUSTED_ORIGINS", "").split(",")
+CSRF_TRUSTED_ORIGINS = [o.strip() for o in CSRF_TRUSTED_ORIGINS if o.strip()]
+
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
 
 

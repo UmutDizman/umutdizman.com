@@ -1,14 +1,40 @@
 {% load static i18n %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ request.LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Umut Dizman - Web Developer{% endblock %}</title>
+    <title>{% block title %}Umut Dizman{% endblock %}</title>
+
+      <!-- SEO -->
+    <meta name="description"
+            content="{% block meta_description %}{% trans "Freelance web developer building fast, reliable websites." %}{% endblock %}">
+    <link rel="canonical" href="{{ request.build_absolute_uri }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+            content="{% block og_title %}Umut Dizman{% endblock %}">
+    <meta property="og:description"
+            content="{% block og_description %}{% trans "Freelance web developer building fast, reliable websites." %}{% endblock %}">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:type" content="website">
+
+    <!-- OG Image -->
+    <meta property="og:image" content="{% static 'images/og_image.png' %}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    {# === FAVICONS === #}
+    <link rel="icon" href="{% static 'favicons/favicon.ico' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicons/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicons/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicons/favicon-16x16.png' %}">
+
     <link rel="stylesheet" href="{% static 'css/base_style.css' %}">
     <link rel="stylesheet" href="{% static 'css/globalroots.css' %}">
     {% block extra_css %}{% endblock %}
     {% block extra_head %}{% endblock %}
+
 </head>
 <body>
     <header class="site-header">
@@ -22,9 +48,9 @@
             
             <nav class="nav" aria-label="{% trans 'Primary' %}">
                 <ul class="nav-links">
-                    <li><a class="nav-link" href="{% url 'umutdizmancom:services' %}">{% trans "Services" %}</a></li>
-                    <li><a class="nav-link" href="{% url 'umutdizmancom:projects' %}">{% trans "Projects" %}</a></li>
-                    <li><a class="nav-link" href="{% url 'umutdizmancom:about' %}">{% trans "About" %}</a></li>
+                    <li><a class="nav-link {% if request.resolver_match.url_name == 'services' %}is-active{% endif %}" href="{% url 'umutdizmancom:services' %}">{% trans "Services" %}</a></li>
+                    <li><a class="nav-link {% if request.resolver_match.url_name == 'projects' %}is-active{% endif %}" href="{% url 'umutdizmancom:projects' %}">{% trans "Projects" %}</a></li>
+                    <li><a class="nav-link {% if request.resolver_match.url_name == 'about' %}is-active{% endif %}" href="{% url 'umutdizmancom:about' %}">{% trans "About" %}</a></li>
                 </ul>
             </nav>
 
@@ -76,7 +102,7 @@
                 <div class="footer-brand">
                     <div class="footer-logo">
                         <span class="brand-badge"><svg xmlns="http://www.w3.org/2000/svg" class="brand-icon" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg></span>
-                        <span class="logo-text">Umut Dizman</span>
+                        <span class="brand-text">Umut Dizman</span>
                     </div>
                     <div class="footer-desc">
                         {% blocktrans trimmed %}
@@ -98,16 +124,19 @@
                 <div class="footer-col">
                     <h4>{% trans "Socials" %}</h4>
                     <ul>
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/umut-dizman-237026303/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://github.com/UmutDizman" target="_blank" rel="noopener">GitHub</a></li>
+                        <!-- daha sonra eklerim belki
                         <li><a href="#">X</a></li>
                         <li><a href="#">Instagram</a></li>
+                        -->
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; {% now "Y" %} Umut Dizman. {% trans "All rights reserved." %}</p>
                 <a href="mailto:umutd.zman@gmail.com">umutd.zman@gmail.com</a>
+                
             </div>
         </div>
     </footer>

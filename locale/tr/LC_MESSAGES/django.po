@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 15:07+0300\n"
+"POT-Creation-Date: 2026-01-17 15:01+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Umut DİZMAN <umutd.zman@gmail.com>\n"
 "Language-Team: Turkish \n"
@@ -25,108 +25,138 @@ msgstr "İngilizce"
 msgid "Turkish"
 msgstr "Türkçe"
 
-#: .\templates\403.html:18
+#: .\templates\403.html:7
+msgid "You don’t have permission to access this page."
+msgstr ""
+"Bu sayfaya erişim izniniz yok. Bir hata olduğunu düşünüyorsanız bana "
+"yazabilirsiniz."
+
+#: .\templates\403.html:23
 msgid "403 Forbidden"
 msgstr "403 Erişim Engellendi"
 
-#: .\templates\403.html:19
+#: .\templates\403.html:24
 msgid "Access Denied"
 msgstr "Erişim Reddedildi"
 
-#: .\templates\403.html:21
+#: .\templates\403.html:26
 msgid ""
 "You don’t have permission to access this page. If this seems wrong, feel "
 "free to contact me."
-msgstr "Bu sayfaya erişim izniniz yok. Bir hata olduğunu düşünüyorsanız bana yazabilirsiniz."
+msgstr ""
+"Bu sayfaya erişim izniniz yok. Bir hata olduğunu düşünüyorsanız bana "
+"yazabilirsiniz."
 
-#: .\templates\403.html:33 .\templates\404.html:30 .\templates\500.html:34
-#: .\templates\base.html:91 .\templates\index.html:5
+#: .\templates\403.html:38 .\templates\404.html:34 .\templates\500.html:39
+#: .\templates\base.html:117 .\templates\index.html:5
 msgid "Home"
 msgstr "Ana Sayfa"
 
-#: .\templates\403.html:34 .\templates\404.html:31 .\templates\500.html:35
+#: .\templates\403.html:39 .\templates\404.html:35 .\templates\500.html:40
 msgid ""
 "Start over from the beginning. Return to the home page to explore my "
 "services."
 msgstr "Baştan başlamak için ana sayfaya dönün ve hizmetlerimi inceleyin."
 
-#: .\templates\403.html:35 .\templates\404.html:32 .\templates\500.html:36
+#: .\templates\403.html:40 .\templates\404.html:36 .\templates\500.html:41
 msgid "Go Back to Home"
 msgstr "Ana Sayfaya Dön"
 
-#: .\templates\403.html:42 .\templates\404.html:37 .\templates\500.html:43
-#: .\templates\base.html:26 .\templates\base.html:92
+#: .\templates\403.html:47 .\templates\404.html:41 .\templates\500.html:48
+#: .\templates\base.html:52 .\templates\base.html:118
+#: .\templates\projects.html:6
 msgid "Projects"
 msgstr "Projeler"
 
-#: .\templates\403.html:43 .\templates\404.html:38 .\templates\500.html:44
+#: .\templates\403.html:48 .\templates\404.html:42 .\templates\500.html:49
 msgid "Explore my modern web applications and e-commerce solutions."
 msgstr "Modern web uygulamalarımı ve e-ticaret çözümlerimi inceleyin."
 
-#: .\templates\403.html:44 .\templates\404.html:39 .\templates\500.html:45
+#: .\templates\403.html:49 .\templates\404.html:43 .\templates\500.html:50
 msgid "View Portfolio"
 msgstr "Projeleri Gör"
 
-#: .\templates\403.html:51 .\templates\404.html:44 .\templates\500.html:52
+#: .\templates\403.html:56 .\templates\404.html:48 .\templates\500.html:57
 #: .\templates\hire_me.html:6
 msgid "Contact"
 msgstr "İletişim"
 
-#: .\templates\403.html:52 .\templates\404.html:45 .\templates\500.html:53
+#: .\templates\403.html:57 .\templates\404.html:49 .\templates\500.html:58
 msgid ""
 "If you couldn't find what you were looking for or have a project idea, reach "
 "out to me."
-msgstr "Aradığınızı bulamadıysanız ya da bir proje fikriniz varsa, bana ulaşın."
+msgstr ""
+"Aradığınızı bulamadıysanız ya da bir proje fikriniz varsa, bana ulaşın."
 
-#: .\templates\403.html:53 .\templates\404.html:46 .\templates\500.html:54
+#: .\templates\403.html:58 .\templates\404.html:50 .\templates\500.html:59
 msgid "Send a Message"
 msgstr "Mesaj Gönder"
 
-#: .\templates\403.html:58 .\templates\404.html:51 .\templates\500.html:59
+#: .\templates\403.html:63 .\templates\404.html:55 .\templates\500.html:64
 msgid "Go back to the previous page"
 msgstr "Önceki sayfaya dön"
 
-#: .\templates\404.html:18
+#: .\templates\404.html:7
+msgid "The page you’re looking for could not be found."
+msgstr "Aradığınız sayfa bulunamadı."
+
+#: .\templates\404.html:22
 msgid "404 ERROR"
 msgstr "404 Sayfa Bulunamadı"
 
-#: .\templates\404.html:19
+#: .\templates\404.html:23
 msgid "We couldn't find what you were looking for."
 msgstr "Aradığınız sayfayı bulamadık."
 
-#: .\templates\404.html:21
+#: .\templates\404.html:25
 msgid ""
 "Don’t worry — links sometimes change or pages move. Here are a few helpful "
 "links to get you back on track."
-msgstr "Sorun değil — bazen bağlantılar değişir veya sayfalar taşınır. Aşağıdaki bağlantılarla devam edebilirsiniz."
+msgstr ""
+"Sorun değil — bazen bağlantılar değişir veya sayfalar taşınır. Aşağıdaki "
+"bağlantılarla devam edebilirsiniz."
 
-#: .\templates\500.html:18
+#: .\templates\500.html:7
+msgid "Something went wrong on our side. Please try again later."
+msgstr "Bizim tarafta bir şey ters gitti. Lütfen daha sonra tekrar deneyin."
+
+#: .\templates\500.html:23
 msgid "500 Internal Server Error"
 msgstr "500 Sunucu Hatası"
 
-#: .\templates\500.html:19
+#: .\templates\500.html:24
 msgid "Something went wrong on our end."
 msgstr "Bizim tarafta bir şey ters gitti."
 
-#: .\templates\500.html:21
+#: .\templates\500.html:26
 msgid ""
 "Don’t worry — this isn’t your fault. We’re experiencing a technical issue, "
 "but you can continue using the site through the links below."
-msgstr "Merak etmeyin — bu sizin hatanız değil. Şu an teknik bir sorun yaşıyoruz, ama aşağıdaki bağlantılarla siteyi kullanmaya devam edebilirsiniz."
+msgstr ""
+"Merak etmeyin — bu sizin hatanız değil. Şu an teknik bir sorun yaşıyoruz, "
+"ama aşağıdaki bağlantılarla siteyi kullanmaya devam edebilirsiniz."
 
-#: .\templates\about.html:5 .\templates\base.html:27 .\templates\base.html:94
+#: .\templates\about.html:5 .\templates\base.html:53 .\templates\base.html:120
 msgid "About"
 msgstr "Hakkımda"
 
-#: .\templates\about.html:13
+#: .\templates\about.html:6
+msgid ""
+"Learn more about Umut Dizman, a freelance web developer focused on building "
+"practical and scalable web solutions."
+msgstr ""
+"Pratik ve ölçeklenebilir web çözümleri geliştiren freelance web geliştirici "
+"Umut Dizman hakkında daha fazla bilgi edinin."
+
+#: .\templates\about.html:16
 msgid "More Than Just"
 msgstr "Sadece Kod"
 
-#: .\templates\about.html:13
+#: .\templates\about.html:16
 msgid "Code"
 msgstr "Değil"
 
-#: .\templates\about.html:14
+#: .\templates\about.html:17
 msgid ""
 "I'm a strategic partner for founders and small businesses. I build digital "
 "products that are fast, accessible, and designed to grow with your vision."
@@ -135,19 +165,19 @@ msgstr ""
 "erişilebilir ve vizyonunuzla birlikte büyüyecek dijital ürünler "
 "geliştiriyorum."
 
-#: .\templates\about.html:17
+#: .\templates\about.html:20
 msgid "Get in Touch"
 msgstr "İletişime Geç"
 
-#: .\templates\about.html:18
+#: .\templates\about.html:21
 msgid "View Work"
 msgstr "Çalışmalarımı Gör"
 
-#: .\templates\about.html:31
+#: .\templates\about.html:34
 msgid "Business-Focused Thinking"
 msgstr "İş Odaklı Yaklaşım"
 
-#: .\templates\about.html:32
+#: .\templates\about.html:35
 msgid ""
 "I don’t just write code. I think about your business goals and build "
 "solutions that support growth, conversion, and long-term success."
@@ -155,11 +185,11 @@ msgstr ""
 "Sadece kod yazmıyorum. İş hedeflerinizi anlayıp; büyümeyi, dönüşümü ve uzun "
 "vadeli başarıyı destekleyen çözümler üretiyorum."
 
-#: .\templates\about.html:39
+#: .\templates\about.html:42
 msgid "Clean, Maintainable Code"
 msgstr "Temiz ve Sürdürülebilir Kod"
 
-#: .\templates\about.html:40
+#: .\templates\about.html:43
 msgid ""
 "I build clean, readable, and scalable code that’s easy to maintain — so your "
 "project doesn’t become a problem six months later."
@@ -167,11 +197,11 @@ msgstr ""
 "Okunabilir, ölçeklenebilir ve bakımı kolay bir kod altyapısı kuruyorum — "
 "böylece proje 6 ay sonra sorun çıkarmıyor."
 
-#: .\templates\about.html:47
+#: .\templates\about.html:50
 msgid "Clear Communication & Delivery"
 msgstr "Net İletişim ve Zamanında Teslim"
 
-#: .\templates\about.html:48
+#: .\templates\about.html:51
 msgid ""
 "No middlemen, no confusion. You work directly with me, get regular updates, "
 "and always know where the project stands."
@@ -179,15 +209,15 @@ msgstr ""
 "Aracı yok, belirsizlik yok. Benimle doğrudan çalışırsınız; düzenli "
 "güncellemeler alırsınız ve projenin her an nerede olduğunu bilirsiniz."
 
-#: .\templates\about.html:57
+#: .\templates\about.html:60
 msgid "Technical Approach"
 msgstr "Teknik Yaklaşım"
 
-#: .\templates\about.html:58
+#: .\templates\about.html:61
 msgid "Modern tools, Simple systems."
 msgstr "Modern araçlar, Sade sistemler."
 
-#: .\templates\about.html:61
+#: .\templates\about.html:64
 msgid ""
 "I don’t pick tech because it’s trendy. I choose tools that keep your site "
 "fast, secure, and easy to manage — without unnecessary complexity."
@@ -195,94 +225,94 @@ msgstr ""
 "Teknolojiyi moda diye seçmem. Sitenizi hızlı, güvenli ve yönetmesi kolay "
 "tutan araçları tercih ederim — gereksiz karmaşa yaratmadan."
 
-#: .\templates\about.html:67
+#: .\templates\about.html:70
 msgid "Django-based, production-ready architecture"
 msgstr "Django tabanlı, yayına hazır mimari"
 
-#: .\templates\about.html:68
+#: .\templates\about.html:71
 msgid "Fast pages + clean SEO fundamentals"
 msgstr "Hızlı açılan sayfalar + sağlam SEO temeli"
 
-#: .\templates\about.html:69
+#: .\templates\about.html:72
 msgid "Admin-managed content when you need it"
 msgstr "İhtiyaç duyduğunuzda admin panelden içerik yönetimi"
 
-#: .\templates\about.html:70
+#: .\templates\about.html:73
 msgid "Clear handoff: docs + short training"
 msgstr "Temiz teslim: dokümantasyon + kısa eğitim"
 
-#: .\templates\about.html:78
+#: .\templates\about.html:81
 msgid "Backend & admin"
 msgstr "Backend & admin panel"
 
-#: .\templates\about.html:79
+#: .\templates\about.html:82
 msgid "Reliable database"
 msgstr "Sağlam veritabanı"
 
-#: .\templates\about.html:80
+#: .\templates\about.html:83
 msgid "Clean UI fast"
 msgstr "Hızlı, temiz arayüz"
 
-#: .\templates\about.html:81
+#: .\templates\about.html:84
 msgid "Stable releases"
 msgstr "Stabil sürümler"
 
-#: .\templates\about.html:85
+#: .\templates\about.html:88
 msgid "\"The right tool for the right job.\""
 msgstr "\"Doğru iş için doğru çözüm.\""
 
-#: .\templates\about.html:94 .\templates\services.html:20
+#: .\templates\about.html:97 .\templates\services.html:23
 msgid "How I Work"
 msgstr "Nasıl Çalışıyorum"
 
-#: .\templates\about.html:95 .\templates\services.html:21
+#: .\templates\about.html:98 .\templates\services.html:24
 msgid "Development Process"
 msgstr "Geliştirme Süreci"
 
-#: .\templates\about.html:100 .\templates\services.html:26
+#: .\templates\about.html:103 .\templates\services.html:29
 msgid "Discovery"
 msgstr "Keşif"
 
-#: .\templates\about.html:101 .\templates\services.html:27
+#: .\templates\about.html:104 .\templates\services.html:30
 msgid ""
 "We discuss your goals, audience and requirements to define a clear roadmap."
 msgstr ""
 "Hedeflerinizi, hedef kitlenizi ve ihtiyaçlarınızı analiz ederek net bir yol "
 "haritası oluşturuyoruz."
 
-#: .\templates\about.html:106 .\templates\services.html:32
+#: .\templates\about.html:109 .\templates\services.html:35
 msgid "Design & UX"
 msgstr "Tasarım & Deneyim"
 
-#: .\templates\about.html:107 .\templates\services.html:33
+#: .\templates\about.html:110 .\templates\services.html:36
 msgid "Wireframes and focused on usability and conversion."
 msgstr "Kullanılabilirlik ve dönüşüm odaklı wireframe ve arayüz tasarımları."
 
-#: .\templates\about.html:111 .\templates\services.html:37
+#: .\templates\about.html:114 .\templates\services.html:40
 msgid "Development"
 msgstr "Geliştirme"
 
-#: .\templates\about.html:112 .\templates\services.html:38
+#: .\templates\about.html:115 .\templates\services.html:41
 msgid "Clean, modern code for performance, SEO and scalability."
 msgstr "Performans, SEO ve ölçeklenebilirlik için temiz ve modern kodlama."
 
-#: .\templates\about.html:116 .\templates\services.html:42
+#: .\templates\about.html:119 .\templates\services.html:45
 msgid "Launch"
 msgstr "Yayınlama"
 
-#: .\templates\about.html:117 .\templates\services.html:43
+#: .\templates\about.html:120 .\templates\services.html:46
 msgid "Testing, deployment and handoff. Everything runs smoothly."
 msgstr "Test, yayına alma ve teslim süreci. Her şey sorunsuz çalışır."
 
-#: .\templates\about.html:131
+#: .\templates\about.html:134
 msgid "Featured Case Study"
 msgstr "Örnek Çalışma"
 
-#: .\templates\about.html:133
+#: .\templates\about.html:136
 msgid "Purevia E-commerce Demo"
 msgstr "Purevia – E-ticaret Demo Projesi"
 
-#: .\templates\about.html:136
+#: .\templates\about.html:139
 msgid ""
 "A complete overhaul of a legacy financial dashboard for a Series A startup. "
 "The focus was on simplifying complex data visualization and improving "
@@ -292,91 +322,87 @@ msgstr ""
 "projesi. Ürün yönetimi, kullanıcı hesapları, sepet ve sipariş süreçleri "
 "admin panel ile tam entegre şekilde kurgulandı."
 
-#: .\templates\about.html:145 .\templates\projects.html:42
+#: .\templates\about.html:148 .\templates\projects.html:43
 msgid "Admin Panel"
 msgstr ""
 
-#: .\templates\about.html:146
+#: .\templates\about.html:149
 msgid "Product & order management"
 msgstr "Ürün ve sipariş yönetimi"
 
-#: .\templates\about.html:149 .\templates\projects.html:51
-#: .\templates\projects.html:136
+#: .\templates\about.html:152 .\templates\projects.html:52
+#: .\templates\projects.html:137
 msgid "E-commerce Flow"
 msgstr "E-ticaret Akışı"
 
-#: .\templates\about.html:150
+#: .\templates\about.html:153
 msgid "Cart, checkout & order history"
 msgstr "Sepet, ödeme ve sipariş geçmişi"
 
-#: .\templates\about.html:154 .\templates\projects.html:61
+#: .\templates\about.html:157 .\templates\projects.html:62
 msgid "View Case Study"
 msgstr "Detayları Gör"
 
-#: .\templates\about.html:159 .\templates\projects.html:78
-msgid "Project Preview"
-msgstr "Önizleme"
-
-#: .\templates\about.html:170
+#: .\templates\about.html:173
 msgid "Services & Packages"
 msgstr "Hizmetler & Paketler"
 
-#: .\templates\about.html:171
+#: .\templates\about.html:174
 msgid "How I can help you"
 msgstr "Size Nasıl Yardımcı Olabilirim"
 
-#: .\templates\about.html:172
+#: .\templates\about.html:175
 msgid "Flexible engagement models tailored to your stage of business."
 msgstr "İşinizin aşamasına göre esnek çalışma modelleri."
 
-#: .\templates\about.html:179 .\templates\index.html:38
-#: .\templates\services.html:55 .\umutdizmancom\models.py:7
+#: .\templates\about.html:182 .\templates\index.html:41
+#: .\templates\services.html:58 .\umutdizmancom\models.py:7
 msgid "Starter"
 msgstr "Temel"
 
-#: .\templates\about.html:183
+#: .\templates\about.html:186
 msgid "Perfect for MVP validation or personal portfolios."
 msgstr "MVP doğrulama veya kişisel portföyler için ideal."
 
-#: .\templates\about.html:186
+#: .\templates\about.html:189
 msgid "From $149"
 msgstr "5.000 ₺'den başlayan fiyatlarla"
 
-#: .\templates\about.html:192 .\templates\index.html:48
-#: .\templates\services.html:81 .\umutdizmancom\models.py:8
+#: .\templates\about.html:195 .\templates\index.html:59
+#: .\templates\services.html:84 .\umutdizmancom\models.py:8
 msgid "Business"
 msgstr "Kurumsal"
 
-#: .\templates\about.html:196
+#: .\templates\about.html:199
 msgid "For established companies needing a pro presence."
 msgstr "Profesyonel bir dijital görünüm isteyen işletmeler için."
 
-#: .\templates\about.html:199
+#: .\templates\about.html:202
 msgid "From $299"
 msgstr "10.000 ₺'den başlayan fiyatlarla"
 
-#: .\templates\about.html:205 .\templates\index.html:58
-#: .\templates\services.html:104 .\umutdizmancom\models.py:9
+#: .\templates\about.html:208 .\templates\index.html:77
+#: .\templates\services.html:107 .\umutdizmancom\models.py:9
 msgid "Pro"
 msgstr "Pro"
 
-#: .\templates\about.html:209
+#: .\templates\about.html:212
 msgid "Complex web apps and custom development needs."
 msgstr "Özel ihtiyaçlara yönelik, kapsamlı web uygulamaları."
 
-#: .\templates\about.html:212
+#: .\templates\about.html:215
 msgid "Custom Quote"
 msgstr "Özel fiyatlandırma"
 
-#: .\templates\about.html:220
+#: .\templates\about.html:223
 msgid "Compare all packages"
 msgstr "Tüm paketleri karşılaştır"
 
-#: .\templates\about.html:230
+#: .\templates\about.html:235
 msgid "Ready to get started"
 msgstr "Projeye başlamaya hazır mısınız?"
 
-#: .\templates\about.html:231
+#: .\templates\about.html:236
 msgid ""
 "I take on a limited number of projects each month. Let’s see if we’re a good "
 "fit."
@@ -384,45 +410,51 @@ msgstr ""
 "Ayda sınırlı sayıda proje alıyorum. Birbirimize uygun olup olmadığımızı "
 "birlikte değerlendirelim."
 
-#: .\templates\about.html:234
+#: .\templates\about.html:239
 msgid "Book a Discovery Call"
 msgstr "Kısa Bir Görüşme Planla"
 
-#: .\templates\about.html:236 .\templates\contact.html:74
-#: .\templates\hire_me.html:65
+#: .\templates\about.html:241 .\templates\contact.html:77
+#: .\templates\hire_me.html:67
 msgid "Email Me"
 msgstr "E-posta Gönder"
 
-#: .\templates\base.html:23
+#: .\templates\base.html:11 .\templates\base.html:18
+msgid "Freelance web developer building fast, reliable websites."
+msgstr ""
+"Küçük işletmeler ve markalar için hızlı, güvenilir ve sürdürülebilir web "
+"siteleri geliştiren freelance web geliştirici."
+
+#: .\templates\base.html:49
 msgid "Primary"
 msgstr ""
 
-#: .\templates\base.html:25 .\templates\base.html:93
-#: .\templates\projects.html:6 .\templates\services.html:4
+#: .\templates\base.html:51 .\templates\base.html:119
+#: .\templates\services.html:4
 msgid "Services"
 msgstr "Hizmetler"
 
-#: .\templates\base.html:33
+#: .\templates\base.html:59
 msgid "Language"
 msgstr "Dil"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:61
 msgid "Flag icon"
 msgstr "Bayrak icon"
 
-#: .\templates\base.html:51
+#: .\templates\base.html:77
 msgid "Turkey flag"
 msgstr "Türkiye bayrağı"
 
-#: .\templates\base.html:58
+#: .\templates\base.html:84
 msgid "England flag"
 msgstr "İngiltere bayrağı"
 
-#: .\templates\base.html:66
+#: .\templates\base.html:92
 msgid "Hire Me"
 msgstr "İletişime Geç"
 
-#: .\templates\base.html:82
+#: .\templates\base.html:108
 msgid ""
 "Freelance web developer building fast, reliable websites for small "
 "businesses and brands."
@@ -430,15 +462,15 @@ msgstr ""
 "Küçük işletmeler ve markalar için hızlı, güvenilir ve sürdürülebilir web "
 "siteleri geliştiren freelance web geliştirici."
 
-#: .\templates\base.html:88
+#: .\templates\base.html:114
 msgid "Sitemap"
 msgstr "Site Haritası"
 
-#: .\templates\base.html:99
+#: .\templates\base.html:125
 msgid "Socials"
 msgstr "Sosyal Medya"
 
-#: .\templates\base.html:109
+#: .\templates\base.html:137
 msgid "All rights reserved."
 msgstr "Tüm hakları saklıdır."
 
@@ -446,44 +478,53 @@ msgstr "Tüm hakları saklıdır."
 msgid "Contact Me"
 msgstr "İletişime Geç"
 
-#: .\templates\contact.html:15
+#: .\templates\contact.html:6
+msgid ""
+"Get in touch to discuss your project idea, ask questions, or start working "
+"together on your website."
+msgstr ""
+"Proje fikrinizi konuşmak, sorular sormak veya web siteniz için birlikte "
+"çalışmaya başlamak üzere iletişime geçin."
+
+#: .\templates\contact.html:18
 msgid "clarify"
 msgstr "netleştirelim"
 
-#: .\templates\contact.html:15
+#: .\templates\contact.html:18
 #, python-format
 msgid "Let’s <span class=\"accent\">%(accent)s</span> your idea."
 msgstr "Fikrinizi <span class=\"accent\">%(accent)s</span>."
 
-#: .\templates\contact.html:21
+#: .\templates\contact.html:24
 msgid "Tell me what you’re thinking — I’ll help you figure out the next step."
 msgstr "Aklındakini kısaca anlat — birlikte bir sonraki adımı belirleyelim."
 
-#: .\templates\contact.html:38
+#: .\templates\contact.html:41 .\umutdizmancom\tasks.py:113
 msgid "Name"
 msgstr "İsim"
 
-#: .\templates\contact.html:44
+#: .\templates\contact.html:47 .\umutdizmancom\tasks.py:114
 msgid "Email"
 msgstr "E-posta"
 
-#: .\templates\contact.html:50
+#: .\templates\contact.html:53
 msgid "Phone (optional)"
 msgstr "Telefon (opsiyonel)"
 
-#: .\templates\contact.html:55
+#: .\templates\contact.html:58 .\umutdizmancom\tasks.py:116
+#: .\umutdizmancom\tasks.py:142 .\umutdizmancom\tasks.py:150
 msgid "Package"
 msgstr "Paket"
 
-#: .\templates\contact.html:67
+#: .\templates\contact.html:70 .\umutdizmancom\tasks.py:117
 msgid "Message"
 msgstr "Mesaj"
 
-#: .\templates\contact.html:72
+#: .\templates\contact.html:75
 msgid "Start Project"
 msgstr "Projeyi Başlat"
 
-#: .\templates\contact.html:79
+#: .\templates\contact.html:82
 msgid "I usually reply within 24 hours to see if it’s a good fit."
 msgstr "Genelde 24 saat içinde dönüş yapıp uygunluk kontrolü yapıyorum."
 
@@ -491,63 +532,83 @@ msgstr "Genelde 24 saat içinde dönüş yapıp uygunluk kontrolü yapıyorum."
 msgid "Contact Success"
 msgstr "İletişim"
 
-#: .\templates\contact_success.html:12
-msgid "Message Sent Successfully!"
-msgstr "Mesajın başarıyla gönderildi!"
+#: .\templates\contact_success.html:6
+msgid ""
+"Your message has been sent successfully. I’ll review it and get back to you "
+"within 24 hours."
+msgstr "Mesajını aldım. 24 saat içinde dönüş yapacağım."
 
-#: .\templates\contact_success.html:14
+#: .\templates\contact_success.html:16
+msgid "Message Sent"
+msgstr "Mesajınız başarıyla "
+
+#: .\templates\contact_success.html:16
+msgid "Successfully!"
+msgstr "gönderildi!"
+
+#: .\templates\contact_success.html:20
 msgid "I've received your message and will get back to you within 24 hours."
 msgstr "Mesajını aldım. 24 saat içinde dönüş yapacağım."
 
-#: .\templates\contact_success.html:18
+#: .\templates\contact_success.html:26
 msgid "Go Home"
 msgstr "Ana Sayfa"
 
-#: .\templates\hire_me.html:16
+#: .\templates\contact_success.html:27 .\templates\index.html:19
+msgid "View Projects"
+msgstr "Projeleri Gör"
+
+#: .\templates\hire_me.html:7
+msgid ""
+"Hire a freelance web developer to build or improve your website with a clear "
+"process and fast delivery."
+msgstr ""
+
+#: .\templates\hire_me.html:18
 msgid "project?"
 msgstr "proje mi var?"
 
-#: .\templates\hire_me.html:16
+#: .\templates\hire_me.html:18
 #, python-format
 msgid "Planning a <span class=\"accent\">%(accent_word)s</span> Let’s talk."
 msgstr "Bir <span class=\"accent\">%(accent_word)s</span> , netleştirelim."
 
-#: .\templates\hire_me.html:21
+#: .\templates\hire_me.html:23
 msgid ""
 "A short conversation to clarify scope, timeline, and the right approach."
 msgstr "Kapsamı, zamanı ve doğru yaklaşımı birlikte netleştirelim."
 
-#: .\templates\hire_me.html:33
+#: .\templates\hire_me.html:35
 msgid "Direct communication"
 msgstr "Doğrudan iletişim"
 
-#: .\templates\hire_me.html:34
+#: .\templates\hire_me.html:36
 msgid "No agencies, no middlemen. You work directly with the developer."
 msgstr "Ajans yok, aracı yok. Doğrudan geliştiriciyle çalışırsınız."
 
-#: .\templates\hire_me.html:43
+#: .\templates\hire_me.html:45
 msgid "Quick fit check"
 msgstr "Kısa uygunluk değerlendirmesi"
 
-#: .\templates\hire_me.html:44
+#: .\templates\hire_me.html:46
 msgid "Not a sales call — just a short scope and fit review."
 msgstr ""
 "Bu bir satış görüşmesi değil — sadece kapsam ve uygunluğu kısaca "
 "netleştiriyoruz."
 
-#: .\templates\hire_me.html:53
+#: .\templates\hire_me.html:55
 msgid "Clear scope, no surprises"
 msgstr "Net kapsam, sürpriz yok"
 
-#: .\templates\hire_me.html:54
+#: .\templates\hire_me.html:56
 msgid "What we agree on upfront is what gets delivered."
 msgstr "Başta neye anlaştıysak, teslim edilen de tam olarak odur."
 
-#: .\templates\hire_me.html:61 .\templates\projects.html:273
+#: .\templates\hire_me.html:63 .\templates\projects.html:275
 msgid "Start a Project"
 msgstr "Projeyi Başlat"
 
-#: .\templates\hire_me.html:69
+#: .\templates\hire_me.html:71
 msgid ""
 "\"This is not a sales call. We’re simply checking whether your project is a "
 "good fit.\""
@@ -555,7 +616,7 @@ msgstr ""
 "\"Bu bir satış görüşmesi değil. Sadece projenizin uygun olup olmadığını "
 "birlikte değerlendiriyoruz.\""
 
-#: .\templates\index.html:12
+#: .\templates\index.html:13
 msgid ""
 "I build <span class=\"text-acent\">reliable and fast </span>web solutions "
 "for founders."
@@ -563,7 +624,7 @@ msgstr ""
 "İşinizi dijitale taşıyan, <span class=\"text-acent\">sağlam ve hızlı</span> "
 "web çözümleri geliştiririm."
 
-#: .\templates\index.html:13
+#: .\templates\index.html:14
 msgid ""
 "Custom business and portfolio websites with design, development, SSL setup "
 "and secure deployment - all in one place."
@@ -571,33 +632,29 @@ msgstr ""
 "Tasarım, geliştirme, SSL kurulumu ve güvenli yayınlama dahil; kurumsal ve "
 "portföy sitelerini uçtan uca tek yerden teslim ediyorum."
 
-#: .\templates\index.html:16
+#: .\templates\index.html:18 .\umutdizmancom\tasks.py:153
 msgid "View Services"
 msgstr "Hizmetleri Gör"
 
-#: .\templates\index.html:17
-msgid "View Projects"
-msgstr "Projeleri Gör"
-
-#: .\templates\index.html:20
+#: .\templates\index.html:21
 msgid "Django · Design · SSL · Deployment · Admin Panel"
 msgstr "Django · Tasarım · SSL · Yayınlama · Admin Panel"
 
-#: .\templates\index.html:25 .\templates\index.html:84
+#: .\templates\index.html:27 .\templates\index.html:157
 msgid "Website preview"
 msgstr "Websitesi önizlemesi"
 
-#: .\templates\index.html:32
+#: .\templates\index.html:34
 msgid "Websites built to grow your business"
 msgstr "İşinizi büyüten web siteleri"
 
-#: .\templates\index.html:33
+#: .\templates\index.html:35
 msgid ""
 "From simple landing pages to full business websites—designed, built, and "
 "deployed."
 msgstr "Basit landing page’lerden, yayına hazır kurumsal sitelere kadar."
 
-#: .\templates\index.html:39
+#: .\templates\index.html:44
 msgid ""
 "A fast and clean website to get your business online. Up to 4 pages, "
 "responsive design, basic SEO, SSL, and deployment."
@@ -605,15 +662,32 @@ msgstr ""
 "İşinizi hızlıca internete taşıyan sade bir web sitesi. 4 sayfaya kadar, "
 "responsive tasarım, temel SEO, SSL ve yayına alma."
 
-#: .\templates\index.html:40 .\templates\index.html:60
-msgid "See details →"
-msgstr "Detayları Gör →"
+#: .\templates\index.html:46 .\templates\index.html:64
+#: .\templates\index.html:83
+msgid "See details"
+msgstr "Detayları Gör"
 
-#: .\templates\index.html:43
-msgid "Best for getting online fast"
-msgstr "Hızlı ve sade bir başlangıç için"
+#: .\templates\index.html:48
+msgid "Responsive design"
+msgstr "Mobil uyumlu tasarım"
 
 #: .\templates\index.html:49
+msgid "Basic SEO"
+msgstr "Temel SEO + site haritası"
+
+#: .\templates\index.html:50 .\templates\services.html:73
+msgid "SSL + deployment"
+msgstr "SSL kurulumu + yayına alma"
+
+#: .\templates\index.html:51
+msgid "Contact form"
+msgstr "Teklif al"
+
+#: .\templates\index.html:60
+msgid "Popular"
+msgstr "En Popüler"
+
+#: .\templates\index.html:62
 msgid ""
 "A complete business website built to attract and convert customers. "
 "Designed, built, and deployed from start to finish."
@@ -621,15 +695,23 @@ msgstr ""
 "Satış ve dönüşüm odaklı, profesyonel bir kurumsal web sitesi. Tasarım, "
 "geliştirme ve yayınlama süreçlerinin tamamı dahil."
 
-#: .\templates\index.html:50
-msgid "Most popular →"
-msgstr "En Popüler →"
+#: .\templates\index.html:66
+msgid "Custom sections (services/portfolio)"
+msgstr "Özel bölümler (hizmetler / portföy)"
 
-#: .\templates\index.html:53
-msgid "Best for businesses that want more leads"
-msgstr "Müşteri toplamak isteyen işletmeler için"
+#: .\templates\index.html:67
+msgid "Lead-focused contact flow"
+msgstr "Dönüşüm odaklı bölümler ve formlar"
 
-#: .\templates\index.html:59
+#: .\templates\index.html:68
+msgid "Admin panel (optional)"
+msgstr "Telefon (opsiyonel)"
+
+#: .\templates\index.html:69
+msgid "Analytics setup"
+msgstr "Analitik kurulumu"
+
+#: .\templates\index.html:81
 msgid ""
 "A fully custom website for brands that need something unique. Custom design, "
 "extended pages, and tailored features."
@@ -637,19 +719,39 @@ msgstr ""
 "Özel ihtiyaçları olan markalar için tamamen özelleştirilmiş web sitesi. Özel "
 "tasarım, daha fazla sayfa ve markaya özel geliştirmeler."
 
-#: .\templates\index.html:63
-msgid "Best for custom design and unique needs"
-msgstr "Özel tasarım ve özel ihtiyaçlar için"
+#: .\templates\index.html:85
+msgid "Custom features (booking/payment)"
+msgstr "Özel özellikler (rezervasyon / ödeme)"
 
-#: .\templates\index.html:74
+#: .\templates\index.html:86
+msgid "Integrations (APIs)"
+msgstr "Ödeme sistemleri ve API entegrasyonları"
+
+#: .\templates\index.html:87
+msgid "Performance & SEO pass"
+msgstr "Performans ve SEO optimizasyonu"
+
+#: .\templates\index.html:88
+msgid "Maintenance option"
+msgstr "Bakım ve destek seçeneği"
+
+#: .\templates\index.html:102
 msgid "Selected project"
 msgstr "Öne Çıkan Proje"
 
-#: .\templates\index.html:78
-msgid "Purevia - E-commerce demo"
+#: .\templates\index.html:103
+msgid "A closer look at how I tackle real-world problems."
+msgstr "Gerçek dünya problemlerini nasıl ele aldığıma daha yakından bakın."
+
+#: .\templates\index.html:108
+msgid "CASE STUDY"
+msgstr "ÖRNEK ÇALIŞMA"
+
+#: .\templates\index.html:112
+msgid "Purevia — E-commerce demo"
 msgstr "Purevia - E-ticaret Demo"
 
-#: .\templates\index.html:79
+#: .\templates\index.html:113
 msgid ""
 "A real-world e-commerce website designed to demonstrate how online stores "
 "actually work. Product listings, cart flow, admin panel, and secure "
@@ -658,19 +760,59 @@ msgstr ""
 "Gerçek iş akışlarını yansıtan, uçtan uca geliştirilmiş bir e-ticaret web "
 "sitesi. Ürünler, sepet süreci, admin panel ve yayına hazır kurulum dahildir."
 
-#: .\templates\index.html:80
+#: .\templates\index.html:119
+msgid "E-commerce flow"
+msgstr "E-ticaret Akışı"
+
+#: .\templates\index.html:120
+msgid "Cart & checkout"
+msgstr "Sepet ve Ödeme"
+
+#: .\templates\index.html:127
+msgid "Admin panel"
+msgstr "Admin paneli"
+
+#: .\templates\index.html:128
+msgid "Inventory control"
+msgstr "Stok yönetimi"
+
+#: .\templates\index.html:135
+msgid "Performance"
+msgstr "Performans"
+
+#: .\templates\index.html:136
+msgid "Fast pages"
+msgstr "Hızlı sayfalar"
+
+#: .\templates\index.html:143
+msgid "Secure setup"
+msgstr "Güvenli kurulum"
+
+#: .\templates\index.html:144
+msgid "SSL + deploy"
+msgstr "SSL kurulumu + yayına alma"
+
+#: .\templates\index.html:151
 msgid "View full case study"
 msgstr "Örnek Çalışmaları Görüntüle"
 
-#: .\templates\projects.html:15
+#: .\templates\projects.html:7
+msgid ""
+"Selected web projects showcasing business websites, admin panels, and e-"
+"commerce solutions built with Django."
+msgstr ""
+"Django ile geliştirilmiş kurumsal web siteleri, admin panelleri ve e-ticaret "
+"çözümlerini içeren seçilmiş projeler."
+
+#: .\templates\projects.html:16
 msgid "Featured "
 msgstr "Öne Çıkan"
 
-#: .\templates\projects.html:15
+#: .\templates\projects.html:16
 msgid "Project"
 msgstr "Çalışma"
 
-#: .\templates\projects.html:17
+#: .\templates\projects.html:18
 msgid ""
 "Real-world web projects built for founders and small businesses. Designed "
 "for performance, clarity, and real business needs."
@@ -678,15 +820,15 @@ msgstr ""
 "Girişimciler ve küçük işletmeler için geliştirilen gerçek projeler. "
 "Performans, netlik ve iş ihtiyaçlarına göre tasarlandı."
 
-#: .\templates\projects.html:30
+#: .\templates\projects.html:31
 msgid "Featured Project"
 msgstr "Öne Çıkan Proje"
 
-#: .\templates\projects.html:31
+#: .\templates\projects.html:32
 msgid "E-commerce Demo"
 msgstr "E-ticaret Demo"
 
-#: .\templates\projects.html:34
+#: .\templates\projects.html:35
 msgid ""
 "A real-world e-commerce demo project with admin management and end-to-end "
 "shopping flow. Built to showcase production-ready architecture and clean UX."
@@ -694,27 +836,31 @@ msgstr ""
 "Admin yönetimi ve uçtan uca satın alma akışı olan gerçekçi bir e-ticaret "
 "demo projesi. Yayına hazır mimari ve temiz UX’i göstermek için geliştirildi."
 
-#: .\templates\projects.html:44
+#: .\templates\projects.html:45
 msgid "Product, category, and order management from a single dashboard."
 msgstr "Ürün, kategori ve sipariş yönetimi tek bir panelden yapılır."
 
-#: .\templates\projects.html:53
+#: .\templates\projects.html:54
 msgid "Cart, checkout validation, order tracking, and order history."
 msgstr "Sepet, ödeme ve sipariş geçmişi"
 
-#: .\templates\projects.html:69
+#: .\templates\projects.html:70
 msgid "Purevia preview"
 msgstr "Websitesi önizlemesi"
 
-#: .\templates\projects.html:100
+#: .\templates\projects.html:79
+msgid "Project Preview"
+msgstr "Önizleme"
+
+#: .\templates\projects.html:101
 msgid "Core Module"
 msgstr "Ana Modül"
 
-#: .\templates\projects.html:105
+#: .\templates\projects.html:106
 msgid "Admin Panel & Product Management"
 msgstr "Admin Paneli ve Ürün Yönetimi"
 
-#: .\templates\projects.html:109
+#: .\templates\projects.html:110
 msgid ""
 "Products, categories, pricing, and orders are managed from a single, clean "
 "admin dashboard. Built to support real business workflows without "
@@ -723,19 +869,19 @@ msgstr ""
 "Ürün, kategori, fiyat ve siparişler tek bir sade admin panelinden yönetilir. "
 "Gereksiz karmaşa olmadan gerçek iş akışlarını destekler."
 
-#: .\templates\projects.html:116
+#: .\templates\projects.html:117
 msgid "Products"
 msgstr "Ürünler"
 
-#: .\templates\projects.html:117
+#: .\templates\projects.html:118
 msgid "Orders"
 msgstr "Siparişler"
 
-#: .\templates\projects.html:131
+#: .\templates\projects.html:132
 msgid "E-commerce"
 msgstr "E-ticaret"
 
-#: .\templates\projects.html:140
+#: .\templates\projects.html:141
 msgid ""
 "End-to-end shopping experience including cart, checkout validation, and "
 "order history. Designed for clarity, speed, and conversion-focused user "
@@ -744,23 +890,23 @@ msgstr ""
 "Sepet, ödeme doğrulama ve sipariş geçmişi dahil uçtan uca alışveriş "
 "deneyimi. Netlik, hız ve dönüşüm odaklı kullanıcı akışı için tasarlandı."
 
-#: .\templates\projects.html:147
+#: .\templates\projects.html:148
 msgid "Cart & Checkout"
 msgstr "Sepet ve Ödeme"
 
-#: .\templates\projects.html:148
+#: .\templates\projects.html:149
 msgid "Order History"
 msgstr "Sipariş Geçmişi"
 
-#: .\templates\projects.html:162
+#: .\templates\projects.html:163
 msgid "User"
 msgstr "Kullanıcı"
 
-#: .\templates\projects.html:167
+#: .\templates\projects.html:168
 msgid "User Accounts & Authentication"
 msgstr "Kullanıcı Hesapları ve Kimlik Doğrulama"
 
-#: .\templates\projects.html:171
+#: .\templates\projects.html:172
 msgid ""
 "Secure user registration, login, and account management system. Includes "
 "protected routes and role-based access for customers and admins."
@@ -768,23 +914,23 @@ msgstr ""
 "Güvenli kayıt, giriş ve hesap yönetimi sistemi. Müşteri ve admin için "
 "yetkilendirme ve korumalı erişim içerir."
 
-#: .\templates\projects.html:178
+#: .\templates\projects.html:179
 msgid "Authentication"
 msgstr "Giriş Sistemi"
 
-#: .\templates\projects.html:179
+#: .\templates\projects.html:180
 msgid "Access Control"
 msgstr "Yetkilendirme"
 
-#: .\templates\projects.html:193
+#: .\templates\projects.html:195
 msgid "Production Ready"
 msgstr "Yayına Hazır"
 
-#: .\templates\projects.html:198
+#: .\templates\projects.html:200
 msgid "Deployment & Project Setup"
 msgstr "Kurulum ve Yayına Alma"
 
-#: .\templates\projects.html:202
+#: .\templates\projects.html:204
 msgid ""
 "Configured for a clean production setup with environment variables, database "
 "migrations, and a deployment-friendly structure. Built to ship reliably and "
@@ -793,79 +939,87 @@ msgstr ""
 "Ortam değişkenleri, migration’lar ve yayına uygun yapı ile temiz bir "
 "production kurulumu. Güvenle yayınlanır, kolay bakım yapılır."
 
-#: .\templates\projects.html:209
+#: .\templates\projects.html:211
 msgid "Env & Config"
 msgstr "Ortam ve Ayarlar"
 
-#: .\templates\projects.html:210
+#: .\templates\projects.html:212
 msgid "Deploy / CI"
-msgstr ""
+msgstr "Canlıya alma süreci"
 
-#: .\templates\projects.html:222
+#: .\templates\projects.html:224
 msgid "What You Get Every Project"
 msgstr "Her Projede Aldığınız Standart"
 
-#: .\templates\projects.html:223
+#: .\templates\projects.html:225
 msgid "A clear delivery standard—no surprises."
 msgstr "Net teslim standardı — sürpriz yok."
 
-#: .\templates\projects.html:231
+#: .\templates\projects.html:233
 msgid "Clean Code"
 msgstr "Temiz Kod"
 
-#: .\templates\projects.html:232
+#: .\templates\projects.html:234
 msgid "Maintainable, scalable, and built with modern standards."
 msgstr "Bakımı kolay, ölçeklenebilir ve modern standartlarla geliştirilir."
 
-#: .\templates\projects.html:239
+#: .\templates\projects.html:241
 msgid "Fast Performance"
 msgstr "Yüksek Performans"
 
-#: .\templates\projects.html:240
+#: .\templates\projects.html:242
 msgid "Optimized for speed, SEO, and Core Web Vitals."
 msgstr "Hız, SEO ve Core Web Vitals için optimize edilir."
 
-#: .\templates\projects.html:247
+#: .\templates\projects.html:249
 #, python-format
 msgid "100%% Ownership"
 msgstr "%%100 Sahiplik"
 
-#: .\templates\projects.html:248
+#: .\templates\projects.html:250
 msgid "You own the code, design assets, and intellectual property."
 msgstr "Kod, tasarım dosyaları ve tüm haklar size aittir."
 
-#: .\templates\projects.html:255
+#: .\templates\projects.html:257
 msgid "Post-Launch Support"
 msgstr "Yayın Sonrası Destek"
 
-#: .\templates\projects.html:256
+#: .\templates\projects.html:258
 msgid "I’m here after launch for bugs, fixes, and questions."
 msgstr "Yayın sonrası hata, düzeltme ve sorular için yanınızdayım."
 
-#: .\templates\projects.html:266
+#: .\templates\projects.html:268
 msgid "Have a project in mind?"
 msgstr "Projeye başlamaya hazır mısınız?"
 
-#: .\templates\projects.html:268
+#: .\templates\projects.html:270
 msgid ""
 "Whether it's a simple landing page or a complex web application, I can help "
 "bring your vision to life."
 msgstr ""
 "Kısa bir görüşmeyle ihtiyacınızı netleştirelim, doğru çözümle ilerleyelim."
 
-#: .\templates\projects.html:274
+#: .\templates\projects.html:276
 msgid "View Pricing"
 msgstr "Paketleri Gör"
 
-#: .\templates\services.html:12
+#: .\templates\services.html:5
+msgid ""
+"Web development services including MVP websites, business sites, and custom "
+"solutions for growing companies."
+msgstr ""
+"Büyüyen şirketler için MVP web siteleri, kurumsal siteler ve özel çözümleri "
+"kapsayan web geliştirme hizmetleri."
+
+#: .\templates\services.html:15
 msgid "Clear, Transparent "
 msgstr "Net ve Şeffaf"
 
-#: .\templates\services.html:12
+#: .\templates\services.html:15
 msgid "Packages"
 msgstr "Paketler"
 
-#: .\templates\services.html:13
+#: .\templates\services.html:16
 msgid ""
 "Straightforward packages for founders and small businesses. From simple MVPs "
 "to scalable web solutions, built without agency bloat."
@@ -874,7 +1028,7 @@ msgstr ""
 "MVP’lerden ölçeklenebilir web çözümlerine kadar, gereksiz maliyet ve "
 "karmaşıklık olmadan."
 
-#: .\templates\services.html:56
+#: .\templates\services.html:59
 msgid ""
 "Fast, clean website for small businesses to get online and start receiving "
 "inquiries."
@@ -882,55 +1036,51 @@ msgstr ""
 "Küçük işletmelerin hızlıca dijitale çıkması ve müşteri talepleri almaya "
 "başlaması için sade ve hızlı web sitesi."
 
-#: .\templates\services.html:57
+#: .\templates\services.html:60
 msgid "Starting at $149"
 msgstr "Başlangıç fiyatı 5,000₺"
 
-#: .\templates\services.html:60
+#: .\templates\services.html:63
 msgid "Select Starter"
 msgstr "Temel Paketi Seç"
 
-#: .\templates\services.html:63
+#: .\templates\services.html:66
 msgid "What's included"
 msgstr "Paket İçeriği"
 
-#: .\templates\services.html:65
+#: .\templates\services.html:68
 msgid "Up to 4 pages"
 msgstr "4 sayfaya kadar"
 
-#: .\templates\services.html:66
+#: .\templates\services.html:69
 msgid "Mobile-first design"
 msgstr "Mobil öncelikli tasarım"
 
-#: .\templates\services.html:67
+#: .\templates\services.html:70
 msgid "Contact form + WatsApp Button"
 msgstr "İletişim formu + WhatsApp butonu"
 
-#: .\templates\services.html:68
+#: .\templates\services.html:71
 msgid "Google Maps embed"
 msgstr "Google Haritalar entegrasyonu"
 
-#: .\templates\services.html:69
+#: .\templates\services.html:72
 msgid "Basic SEO + sitemap"
 msgstr "Temel SEO + site haritası"
 
-#: .\templates\services.html:70
-msgid "SSL + deployment"
-msgstr "SSL kurulumu + yayına alma"
-
-#: .\templates\services.html:71
+#: .\templates\services.html:74
 msgid "1 revision round"
 msgstr "1 revizyon hakkı"
 
-#: .\templates\services.html:72
+#: .\templates\services.html:75
 msgid "5-7 days delivery"
 msgstr "5–7 gün teslim süresi"
 
-#: .\templates\services.html:78
+#: .\templates\services.html:81
 msgid "Most popular"
 msgstr "En Popüler"
 
-#: .\templates\services.html:82
+#: .\templates\services.html:85
 msgid ""
 "A complete brand website with lead-focused sections and admin-managed "
 "content."
@@ -938,121 +1088,121 @@ msgstr ""
 "Müşteri dönüşümüne odaklı bölümler ve yönetilebilir içeriklerle hazırlanmış, "
 "markanız için tam kapsamlı bir web sitesi."
 
-#: .\templates\services.html:83
+#: .\templates\services.html:86
 msgid "Starting at $299"
 msgstr "Başlangıç fiyatı 10,000₺"
 
-#: .\templates\services.html:86
+#: .\templates\services.html:89
 msgid "Select Business"
 msgstr "Kurumsal Paketi Seç"
 
-#: .\templates\services.html:89
+#: .\templates\services.html:92
 msgid "Everything in Starter, plus:"
 msgstr "Temel pakete ek olarak:"
 
-#: .\templates\services.html:91
+#: .\templates\services.html:94
 msgid "Up to 8 pages"
 msgstr "8 sayfaya kadar"
 
-#: .\templates\services.html:92
+#: .\templates\services.html:95
 msgid "Lead-focused section + forms"
 msgstr "Dönüşüm odaklı bölümler ve formlar"
 
-#: .\templates\services.html:93
+#: .\templates\services.html:96
 msgid "Blog/updates (Admin manageable)"
 msgstr "Blog / duyuru alanı (admin panelden yönetilebilir)"
 
-#: .\templates\services.html:94
+#: .\templates\services.html:97
 msgid "Advanced SEO basics"
 msgstr "Gelişmiş SEO ayarları"
 
-#: .\templates\services.html:95
+#: .\templates\services.html:98
 msgid "Performance pass + image optimization"
 msgstr "Performans iyileştirme + görsel optimizasyonu"
 
-#: .\templates\services.html:96
+#: .\templates\services.html:99
 msgid "2 revision round"
 msgstr "2 revizyon hakkı"
 
-#: .\templates\services.html:97
+#: .\templates\services.html:100
 msgid "10-12 days delivery"
 msgstr "10–12 gün teslim süresi"
 
-#: .\templates\services.html:105
+#: .\templates\services.html:108
 msgid "Complex web applications with custom functionality."
 msgstr "Özel fonksiyonlara sahip, kapsamlı web uygulamaları."
 
-#: .\templates\services.html:106
+#: .\templates\services.html:109
 msgid "Custom"
 msgstr "Özel fiyatlandırma"
 
-#: .\templates\services.html:109
+#: .\templates\services.html:112
 msgid "Contact for quote"
 msgstr "Teklif al"
 
-#: .\templates\services.html:112
+#: .\templates\services.html:115
 msgid "Custom solutions for:"
 msgstr "Özel çözümler:"
 
-#: .\templates\services.html:114
+#: .\templates\services.html:117
 msgid "Custom web system (not just pages)"
 msgstr "Sadece sayfa değil, özel web sistemleri"
 
-#: .\templates\services.html:115
+#: .\templates\services.html:118
 msgid "Admin panel + workflows"
 msgstr "Admin paneli + iş akışları"
 
-#: .\templates\services.html:116
+#: .\templates\services.html:119
 msgid "Auth & profiles"
 msgstr "Kullanıcı girişleri ve profiller"
 
-#: .\templates\services.html:117
+#: .\templates\services.html:120
 msgid "DB design"
 msgstr "Veritabanı tasarımı"
 
-#: .\templates\services.html:118
+#: .\templates\services.html:121
 msgid "Integrations (payments/APIs)"
 msgstr "Ödeme sistemleri ve API entegrasyonları"
 
-#: .\templates\services.html:119
+#: .\templates\services.html:122
 msgid "Scalable architecture"
 msgstr "Ölçeklenebilir mimari"
 
-#: .\templates\services.html:120
+#: .\templates\services.html:123
 msgid "Milestone-based delivery"
 msgstr "Aşamalı teslim süreci"
 
-#: .\templates\services.html:121
+#: .\templates\services.html:124
 msgid "Custom quote"
 msgstr "Özel fiyatlandırma"
 
-#: .\templates\services.html:129
+#: .\templates\services.html:132
 msgid "Need something different?"
 msgstr "Farklı bir şeye mi ihtiyacınız var?"
 
-#: .\templates\services.html:130
+#: .\templates\services.html:133
 msgid "Not sure which package fits? I can propose a custom scope and quote."
 msgstr ""
 "Hangi paket size uygun emin değil misiniz? Size özel kapsam ve fiyat teklifi "
 "hazırlayabilirim."
 
-#: .\templates\services.html:131
+#: .\templates\services.html:134
 msgid "Contact me for a custom quote"
 msgstr "Özel teklif almak için iletişime geçin"
 
-#: .\templates\services.html:140
+#: .\templates\services.html:143
 msgid "Common Questions"
 msgstr "Sıkça Sorulan Sorular"
 
-#: .\templates\services.html:141
+#: .\templates\services.html:144
 msgid "Everything you need to know about working with me."
 msgstr "Benimle çalışmadan önce bilmeniz gerekenler."
 
-#: .\templates\services.html:145
+#: .\templates\services.html:148
 msgid "How do payments work?"
 msgstr "Ödemeler nasıl yapılır?"
 
-#: .\templates\services.html:146
+#: .\templates\services.html:149
 #, python-format
 msgid ""
 "I work with clear, upfront pricing. Most projects start with a 50%% deposit, "
@@ -1063,11 +1213,11 @@ msgstr ""
 "başlar ve kalan bakiye, projenin tamamlanıp lansmanından sonra ödenir. Daha "
 "büyük veya özel projeler için, aşama bazlı ödemeler düzenlenebilir."
 
-#: .\templates\services.html:149
+#: .\templates\services.html:152
 msgid "How long does a project take?"
 msgstr "Bir proje ne kadar sürer?"
 
-#: .\templates\services.html:150
+#: .\templates\services.html:153
 msgid ""
 "Starter websites usually take 5–7 days. Business projects take around 10–14 "
 "days, depending on scope and how quickly feedback and content are provided."
@@ -1076,11 +1226,11 @@ msgstr ""
 "bildirimlerin ve içeriğin ne kadar hızlı sağlandığına bağlı olarak yaklaşık "
 "10-14 gün sürer."
 
-#: .\templates\services.html:153
+#: .\templates\services.html:156
 msgid "What happens after the site is launched?"
 msgstr "Site açıldıktan sonra ne olur?"
 
-#: .\templates\services.html:154
+#: .\templates\services.html:157
 msgid ""
 "After launch, I provide a short support period to fix any issues. You can "
 "then either continue with maintenance support or fully manage the site "
@@ -1091,11 +1241,11 @@ msgstr ""
 "tamamen kendiniz yönetebilirsiniz — her şeyi temiz ve sorunsuz şekilde "
 "devrediyorum."
 
-#: .\templates\services.html:157
+#: .\templates\services.html:160
 msgid "Do you provide the content?"
 msgstr "İçeriği siz mi sağlıyorsunuz?"
 
-#: .\templates\services.html:158
+#: .\templates\services.html:161
 msgid ""
 "Content is usually provided by the client. However, I help structure the "
 "pages and guide you on what content is needed to make the site effective."
@@ -1104,11 +1254,11 @@ msgstr ""
 "yapılandırmanıza yardımcı olur ve sitenin etkili olması için hangi içeriğin "
 "gerekli olduğu konusunda size rehberlik ederim."
 
-#: .\templates\services.html:161
+#: .\templates\services.html:164
 msgid "What kind of websites do you build?"
 msgstr "Ne tür web siteleri oluşturuyorsunuz?"
 
-#: .\templates\services.html:162
+#: .\templates\services.html:165
 msgid ""
 "I build business websites, landing pages, and custom web systems. From "
 "simple informational sites to admin-managed platforms, everything is built "
@@ -1118,11 +1268,11 @@ msgstr ""
 "Basit bilgilendirme sitelerinden yönetici tarafından yönetilen platformlara "
 "kadar her şey hızlı, güvenli ve ölçeklenebilir olacak şekilde tasarlanır."
 
-#: .\templates\services.html:165
+#: .\templates\services.html:168
 msgid "Do I own the website and code?"
 msgstr "Web sitesi ve kodun sahibi ben miyim?"
 
-#: .\templates\services.html:166
+#: .\templates\services.html:169
 msgid ""
 "Yes. Once the project is completed and paid for, you own the website, code, "
 "and assets entirely. No subscriptions, no lock-in."
@@ -1130,11 +1280,11 @@ msgstr ""
 "Evet. Proje tamamlandıktan ve ödemesi yapıldıktan sonra, web sitesi, kod ve "
 "varlıklar tamamen size ait olur. Abonelik yok, bağlanma yok."
 
-#: .\templates\services.html:175
+#: .\templates\services.html:178
 msgid "Ready to start your project?"
 msgstr "Projeye başlamaya hazır mısınız?"
 
-#: .\templates\services.html:177
+#: .\templates\services.html:180
 msgid ""
 "If you have a project in mind, let’s have a short call to see if we’re a "
 "good fit."
@@ -1142,11 +1292,11 @@ msgstr ""
 "Aklınızda bir proje varsa, kısa bir görüşme yaparak birbirimize uygun olup "
 "olmadığımızı konuşalım."
 
-#: .\templates\services.html:183
+#: .\templates\services.html:186
 msgid "Book a discovery call"
 msgstr "Kısa Bir Görüşme Planla"
 
-#: .\templates\services.html:186
+#: .\templates\services.html:189
 msgid "Email me"
 msgstr "E-posta Gönder"
 
@@ -1154,19 +1304,68 @@ msgstr "E-posta Gönder"
 msgid "Not sure yet"
 msgstr "Henüz karar vermedim"
 
-#: .\umutdizmancom\tasks.py:33
+#: .\umutdizmancom\tasks.py:46
+msgid "If you didn’t request this, you can ignore this email."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:110
+msgid "New project inquiry"
+msgstr "Projeye başlamaya hazır mısınız?"
+
+#: .\umutdizmancom\tasks.py:111
+msgid "You received a new inquiry. Summary:"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:115
+msgid "Phone"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:119
+msgid "Open Admin"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:121
+msgid "Tip: reply quickly to improve conversion."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:138
 msgid "Got it — I’ll get back to you shortly"
 msgstr "Aldım — kısa süre içinde dönüş yapacağım."
 
-#: .\umutdizmancom\tasks.py:35
+#: .\umutdizmancom\tasks.py:141
 msgid ""
 "Thanks for reaching out. I’ve received your message and I’ll reply within 24 "
 "hours.\n"
 "\n"
-"Summary:\n"
 msgstr ""
 "Mesajın için teşekkürler. Talebini aldım ve 24 saat içinde dönüş yapacağım.\n"
 
-#: .\umutdizmancom\views.py:51
+#: .\umutdizmancom\tasks.py:143
+msgid "Your message"
+msgstr "Mesaj"
+
+#: .\umutdizmancom\tasks.py:147
+msgid "Message received ✅"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:148
+msgid ""
+"Thanks for reaching out. I’ll review your message and reply within 24 hours."
+msgstr ""
+"Mesajın için teşekkürler. Talebini aldım ve 24 saat içinde dönüş yapacağım."
+
+#: .\umutdizmancom\tasks.py:151
+msgid "Next step"
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:151
+msgid "I’ll respond with timeline + questions (if needed)."
+msgstr ""
+
+#: .\umutdizmancom\tasks.py:155
+msgid "If you have extra details, reply to this email."
+msgstr ""
+
+#: .\umutdizmancom\views.py:52
 msgid "Thanks! Your message has been sent."
 msgstr "Teşekkürler! Mesajın ulaştı."
