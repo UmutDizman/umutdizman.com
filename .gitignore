@@ -3,15 +3,26 @@
 .env.*
 !.env.example
 
-# venv
+# Virtualenv
 venv/
 .venv/
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Django
 db.sqlite3
 staticfiles/
 media/
+*.log
+
+# Tests / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db

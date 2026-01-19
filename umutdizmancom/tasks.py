@@ -1,8 +1,8 @@
 # umutdizmancom/tasks.py
 import logging
 from django.conf import settings
-from django.core.mail import EmailMultiAlternatives
 from django.utils.translation import gettext as _
+from .utils.mailgun import send_mailgun
 
 logger = logging.getLogger(__name__)
 
@@ -121,15 +121,14 @@ def send_inquiry_emails(inquiry):
             footer_note=_("Tip: reply quickly to improve conversion."),
         )
 
-        msg = EmailMultiAlternatives(
+        send_mailgun(
             subject=admin_subject,
-            body=admin_text,
+            text=admin_text,
+            html=admin_html,
             from_email=settings.DEFAULT_FROM_EMAIL,
-            to=[settings.CONTACT_NOTIFY_EMAIL],
-            reply_to=[inquiry.email],
+            to_emails=[settings.CONTACT_NOTIFY_EMAIL],
+            reply_to=inquiry.email,
         )
-        msg.attach_alternative(admin_html, "text/html")
-        msg.send(fail_silently=False)
     except Exception:
         logger.exception("Admin notification email failed")
 
@@ -155,14 +154,14 @@ def send_inquiry_emails(inquiry):
             footer_note=_("If you have extra details, reply to this email."),
         )
 
-        msg = EmailMultiAlternatives(
+        send_mailgun(
             subject=user_subject,
-            body=user_text,
+            text=user_text,
+            html=user_html,
             from_email=settings.DEFAULT_FROM_EMAIL,
-            to=[inquiry.email],
-            reply_to=[settings.CONTACT_NOTIFY_EMAIL],
+            to_emails=[inquiry.email],
+            reply_to=settings.CONTACT_NOTIFY_EMAIL,
         )
-        msg.attach_alternative(user_html, "text/html")
-        msg.send(fail_silently=False)
+       
     except Exception:
         logger.exception("User autoreply email failed")
