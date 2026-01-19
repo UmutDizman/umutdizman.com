@@ -326,27 +326,26 @@
   width: 36px;
   height: 36px;
   border-radius: 12px;
-  background: rgba(37,99,235,.12);
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
+  background-color: rgba(37,99,235,.12);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* senin icon sistemin mask ile çalışıyorsa, mini-icon içine pseudo ile bağla */
 .mini-icon::before{
   content:"";
   width: 18px;
   height: 18px;
   background: var(--primary);
-  mask: var(--mini-mask) no-repeat center / contain;
   -webkit-mask: var(--mini-mask) no-repeat center / contain;
+  mask: var(--mini-mask) no-repeat center / contain;
 }
 
-/* ikonları değiştir: (örnek) */
-.icon-email{ --mini-mask: url("/static/icons/mail.svg"); }
-.icon-home{ --mini-mask: url("/static/icons/home.svg"); }
-.icon-layers{ --mini-mask: url("/static/icons/layers.svg"); }
-.icon-check{ --mini-mask: url("/static/icons/check.svg"); }
+/* asıl kritik kısım: mini-mask burada set edilecek */
+.icon-email  { --mini-mask: url("/static/icons/mail.svg"); }
+.icon-home   { --mini-mask: url("/static/icons/home.svg"); }
+.icon-layers { --mini-mask: url("/static/icons/layers.svg"); }
+.icon-check  { --mini-mask: url("/static/icons/check.svg"); }
 
 .featured-media{
   border-radius: var(--radius);

@@ -1,12 +1,17 @@
+# Env files
 .env
 .env.*
+!.env.example
+
+# venv
 venv/
+.venv/
 
 # Python
 __pycache__/
 *.pyc
 
-# Django static collect
-staticfiles/
-
+# Django
 db.sqlite3
+staticfiles/
+media/
