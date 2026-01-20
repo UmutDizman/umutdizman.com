@@ -1,21 +1,39 @@
-# UmutDizman.com — Portfolio Website
+# UmutDizman.com — Portfolio & Case Study Platform
 
-Personal portfolio website built with **Django**, deployed on **Ubuntu + Nginx + Gunicorn**, secured with **Let’s Encrypt SSL**.
+Personal portfolio and case study platform built with **Django**, designed to showcase
+product-focused projects, architectural decisions and an end-to-end delivery approach
+from development to production.
 
 🌍 **Live:** https://umutdizman.com
 
 ---
 
-## 🚀 Tech Stack
+## 🛠️ Technical Overview
 
-- **Backend:** Django 5.2  
+- **Backend:** Django  
 - **Web Server:** Nginx  
-- **App Server:** Gunicorn (systemd socket)  
-- **Database:** SQLite (MVP)  
-- **Static Files:** Nginx (`collectstatic`)  
-- **Email:** SMTP (Gmail – optional)  
+- **App Server:** Gunicorn  
+- **Database:** SQLite (MVP)   
 - **Deployment:** Ubuntu (DigitalOcean)  
-- **SSL:** Let’s Encrypt (Certbot)
+- **SSL:** Let’s Encrypt
+
+---
+
+## 🧠 Product & Ownership Focus
+
+The project intentionally avoids unnecessary complexity and favors
+clear, understandable solutions over over-engineering.
+
+Key decisions:
+- Clear separation of concerns (views, templates, static assets)
+- Production-ready deployment with proper process management
+- Secure configuration using environment variables
+- SEO-friendly structure and performance-conscious setup
+
+The goal was to treat even a personal website like a real product:
+deployable, maintainable and owned end-to-end.
+
+> Included for deployment clarity and operational context.
 
 ---
 

@@ -210,8 +210,8 @@
   background-color:var(--primary);
 
   /* SVG’yi burada TEK KEZ tanımlıyorsun */
-  mask: url("/static/icons/check.svg") no-repeat center / contain;
-  -webkit-mask: url("/static/icons/check.svg") no-repeat center / contain;
+  mask: url("/icons/check.svg") no-repeat center / contain;
+  -webkit-mask: url("/icons/check.svg") no-repeat center / contain;
 }
 
 .mini-cta{
